@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What Missed Calls Cost Your Business — Missed-Call Text-Back · Eli Tanz</title>
+<meta name="description" content="Every call that rings out is a job that calls your competitor. Calculate what missed calls cost your business — and see how automatic text-back recovers them. Minnesota local businesses.">
+<meta property="og:title" content="That missed call just hired your competitor.">
+<meta property="og:description" content="Calculate what missed calls actually cost your business — and how automatic text-back gets those jobs back.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://elitanz.github.io/missed-calls/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Missed-Call Text-Back",
+  "description": "Automatic text-back for missed business calls — recovers jobs that would otherwise go to competitors.",
+  "provider": {"@type": "ProfessionalService", "name": "Eli Tanz — Web Design & Automation", "telephone": "+16126822614", "address": {"@type": "PostalAddress", "addressLocality": "Minneapolis", "addressRegion": "MN"}},
+  "areaServed": {"@type": "State", "name": "Minnesota"}
+}
+</script>
+<style>
+:root{
+  --ink:#0d0b10; --ink2:#15121b; --paper:#f4f1ea; --mut:#a49fa8;
+  --red:#ff5a4e; --green:#3ecf7b; --amber:#e8b04b;
+  --disp:"Fraunces",serif; --body:"Inter",system-ui,sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--ink);color:var(--paper);font-family:var(--body);line-height:1.6;overflow-x:clip}
+a{color:inherit}
+h1,h2,h3{font-family:var(--disp);font-weight:600;line-height:1.08}
+.wrap{max-width:1020px;margin:0 auto;padding:0 24px}
+.kicker{font-size:12px;letter-spacing:.22em;text-transform:uppercase;font-weight:600;color:var(--red)}
+.kicker.g{color:var(--green)}
+.rv{opacity:0;transform:translateY(34px);transition:opacity .8s ease,transform .8s cubic-bezier(.22,1,.36,1)}
+.rv.in{opacity:1;transform:none}
+
+/* nav */
+nav{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;align-items:center;justify-content:space-between;
+  padding:14px 28px;background:rgba(13,11,16,.9);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  border-bottom:1px solid rgba(244,241,234,.08);transform:translateY(-110%);transition:transform .45s cubic-bezier(.4,0,.2,1)}
+nav.on{transform:translateY(0)}
+.nv-name{font-family:var(--disp);font-size:20px;font-weight:700;text-decoration:none}
+.nv-name span{color:var(--green)}
+.nv-cta{background:var(--green);color:#07130c;padding:9px 18px;border-radius:999px;font-weight:600;font-size:14px;text-decoration:none}
+
+/* hero */
+header{position:relative;min-height:100svh;display:flex;align-items:center;overflow:hidden;
+  background:radial-gradient(ellipse 80% 60% at 70% 20%, rgba(255,90,78,.14), transparent 60%),
+             radial-gradient(ellipse 60% 50% at 20% 90%, rgba(62,207,123,.08), transparent 60%), var(--ink)}
+.hero-in{position:relative;z-index:2;padding:90px 24px;max-width:820px;margin:0 auto;text-align:center}
+.ring{font-size:60px;display:inline-block;margin-bottom:18px;animation:buzz 3.2s ease-in-out infinite}
+@keyframes buzz{0%,84%,100%{transform:rotate(0)}86%{transform:rotate(-11deg)}88%{transform:rotate(9deg)}90%{transform:rotate(-7deg)}92%{transform:rotate(5deg)}94%{transform:rotate(0)}}
+@media(prefers-reduced-motion:reduce){.ring{animation:none}}
+h1{font-size:clamp(40px,7vw,80px);margin:8px 0 22px}
+h1 em{font-style:italic;color:var(--red)}
+.hero-sub{font-size:clamp(16px,2vw,20px);color:#d5d1d8;max-width:600px;margin:0 auto 34px}
+.btn{display:inline-block;text-decoration:none;font-weight:600;border-radius:999px;padding:16px 34px;font-size:16px;transition:transform .2s,box-shadow .2s}
+.btn-g{background:var(--green);color:#07130c;box-shadow:0 12px 34px rgba(62,207,123,.25)}
+.btn-g:hover{transform:translateY(-2px)}
+.scroll-cue{position:absolute;bottom:26px;left:50%;transform:translateX(-50%);font-size:11px;letter-spacing:.3em;color:var(--mut);text-transform:uppercase}
+.scroll-cue::after{content:"";display:block;width:1px;height:34px;background:linear-gradient(var(--mut),transparent);margin:8px auto 0}
+
+main{position:relative;z-index:5;background:var(--ink);margin-top:-42px;border-radius:34px 34px 0 0;box-shadow:0 -34px 70px -32px rgba(0,0,0,.8)}
+section{padding:90px 0;scroll-margin-top:64px}
+.sec-head{max-width:640px;margin-bottom:46px}
+.sec-head h2{font-size:clamp(30px,4.4vw,50px);margin:14px 0 16px}
+.sec-head p{color:var(--mut);font-size:17px}
+
+/* calculator */
+#calc .panel{display:grid;grid-template-columns:1.1fr .9fr;gap:0;border-radius:22px;overflow:hidden;border:1px solid rgba(244,241,234,.1)}
+@media(max-width:860px){#calc .panel{grid-template-columns:1fr}}
+.controls{background:var(--ink2);padding:38px 34px}
+.ctl{margin-bottom:30px}
+.ctl:last-child{margin-bottom:0}
+.ctl .row{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:10px}
+.ctl label{font-weight:600;font-size:15px}
+.ctl output{font-family:var(--disp);font-size:24px;font-weight:700;color:var(--amber)}
+input[type=range]{width:100%;-webkit-appearance:none;appearance:none;height:6px;border-radius:3px;background:rgba(244,241,234,.15);outline:none}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:26px;height:26px;border-radius:50%;background:var(--amber);cursor:pointer;border:3px solid var(--ink2);box-shadow:0 2px 10px rgba(0,0,0,.5)}
+input[type=range]::-moz-range-thumb{width:22px;height:22px;border-radius:50%;background:var(--amber);cursor:pointer;border:3px solid var(--ink2)}
+.ctl small{color:var(--mut);font-size:12.5px;display:block;margin-top:8px}
+.result{background:linear-gradient(160deg,#2a1512,#1c0f14);padding:38px 34px;display:flex;flex-direction:column;justify-content:center;text-align:center}
+.result .lbl{font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:#ffb1a9;font-weight:600}
+.result .big{font-family:var(--disp);font-weight:700;font-size:clamp(46px,6.4vw,74px);color:var(--red);margin:10px 0 4px;font-variant-numeric:tabular-nums}
+.result .per{color:#d5d1d8;font-size:15px;margin-bottom:22px}
+.result .yr{border-top:1px solid rgba(255,90,78,.25);padding-top:18px;color:#ffcdc8;font-size:15px}
+.result .yr b{font-family:var(--disp);font-size:26px;color:var(--red);display:block;font-variant-numeric:tabular-nums}
+.vs{margin-top:26px;background:rgba(62,207,123,.1);border:1px solid rgba(62,207,123,.35);border-radius:14px;padding:16px;color:#cdeedd;font-size:14.5px}
+.vs b{color:var(--green)}
+
+/* how */
+#how{background:var(--paper);color:var(--ink);border-radius:34px;margin:0 14px}
+#how .kicker{color:#1f8a50}
+#how .sec-head p{color:#5c5e55}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+@media(max-width:860px){.steps{grid-template-columns:1fr}}
+.step{background:#fff;border-radius:18px;padding:30px 28px;box-shadow:0 10px 34px rgba(20,24,18,.08)}
+.step .n{font-family:var(--disp);font-size:40px;font-weight:700;color:#1f8a50;display:block;margin-bottom:10px}
+.step h3{font-size:21px;margin-bottom:10px}
+.step p{color:#5c5e55;font-size:15px}
+.demo-bubble{max-width:430px;margin:44px auto 0;background:#fff;border-radius:20px;padding:22px 24px;box-shadow:0 14px 40px rgba(20,24,18,.12)}
+.demo-bubble .from{font-size:12px;color:#8a8d82;margin-bottom:10px;letter-spacing:.06em}
+.demo-bubble .sms{background:#e9f7ef;border-radius:16px 16px 16px 4px;padding:14px 16px;font-size:15px;color:#1c2a21}
+.fine{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:44px}
+@media(max-width:720px){.fine{grid-template-columns:1fr}}
+.fine div{background:#fff;border-radius:14px;padding:18px 20px;font-size:14px;color:#454840;box-shadow:0 8px 24px rgba(20,24,18,.06)}
+.fine b{display:block;color:var(--ink);margin-bottom:4px}
+
+/* offer + contact */
+#offer{text-align:center;padding-bottom:120px}
+#offer h2{font-size:clamp(32px,4.6vw,54px);margin:14px 0 12px}
+#offer .lead{color:var(--mut);max-width:520px;margin:0 auto 8px}
+.price{font-family:var(--disp);font-size:clamp(40px,6vw,64px);font-weight:700;color:var(--green);margin:26px 0 4px}
+.price small{font-size:.4em;color:var(--mut);font-weight:400;font-family:var(--body)}
+.price-sub{color:var(--mut);font-size:15px;margin-bottom:36px}
+.call-big{display:inline-flex;align-items:center;gap:12px;text-decoration:none;background:var(--green);color:#07130c;
+  font-weight:700;font-size:clamp(17px,2.4vw,22px);padding:18px 30px;border-radius:16px;box-shadow:0 14px 40px rgba(62,207,123,.25);transition:transform .2s}
+.call-big:hover{transform:translateY(-2px)}
+.alt{margin-top:16px;font-size:14px;color:var(--mut)}
+.alt a{color:var(--green)}
+
+footer{border-top:1px solid rgba(244,241,234,.08);padding:34px 0;color:var(--mut);font-size:13px}
+footer .wrap{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+footer a{color:var(--mut)}
+
+.mob-call{position:fixed;bottom:0;left:0;right:0;z-index:49;display:none;background:var(--green);color:#07130c;
+  text-align:center;padding:15px;font-weight:700;text-decoration:none;font-size:16px;transform:translateY(110%);transition:transform .4s}
+.mob-call.on{transform:none}
+@media(max-width:720px){.mob-call{display:block}}
+</style>
+</head>
+<body>
+
+<nav id="nav" aria-label="Main">
+  <a class="nv-name" href="../">Eli<span>.</span></a>
+  <a class="nv-cta" href="#offer">Get it for your business</a>
+</nav>
+
+<header>
+  <div class="hero-in">
+    <span class="ring" aria-hidden="true">📵</span>
+    <div class="kicker">For Minnesota trades &amp; local businesses</div>
+    <h1>That missed call just hired <em>your competitor.</em></h1>
+    <p class="hero-sub">You were on a ladder, under a sink, or with a customer. The phone rang out — and the caller did what everyone does: dialed the next name on Google.</p>
+    <a class="btn btn-g" href="#calc">See what it's costing you ↓</a>
+  </div>
+  <div class="scroll-cue">Scroll</div>
+</header>
+
+<main>
+
+<!-- CALCULATOR -->
+<section id="calc">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="kicker">The math nobody does</div>
+      <h2>What do missed calls actually cost you?</h2>
+      <p>Be honest with the sliders — most owners guess low, then check their phone's missed-call list.</p>
+    </div>
+    <div class="panel rv">
+      <div class="controls">
+        <div class="ctl">
+          <div class="row"><label for="r-miss">Missed calls per week</label><output id="o-miss">5</output></div>
+          <input type="range" id="r-miss" min="1" max="25" value="5" step="1">
+          <small>Calls that ring out or hit voicemail during jobs, evenings, weekends.</small>
+        </div>
+        <div class="ctl">
+          <div class="row"><label for="r-val">Average job value</label><output id="o-val">$350</output></div>
+          <input type="range" id="r-val" min="50" max="2500" value="350" step="25">
+          <small>What a typical booked job is worth to you.</small>
+        </div>
+        <div class="ctl">
+          <div class="row"><label for="r-rate">Calls that become jobs</label><output id="o-rate">30%</output></div>
+          <input type="range" id="r-rate" min="10" max="80" value="30" step="5">
+          <small>When you actually answer, how many callers book?</small>
+        </div>
+      </div>
+      <div class="result">
+        <div class="lbl">Walking out the door</div>
+        <div class="big" id="perMonth">$2,275</div>
+        <div class="per">every month</div>
+        <div class="yr">that's <b id="perYear">$27,300</b> a year in jobs you never heard about</div>
+        <div class="vs" id="vsLine">Text-back costs <b>$150/mo</b> — recovering just <b>one job</b> pays for it.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW -->
+<section id="how">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="kicker">The fix</div>
+      <h2>Miss the call. Keep the customer.</h2>
+      <p>Missed-Call Text-Back watches your line and answers by text before the caller moves on. You keep working — it keeps the lead warm.</p>
+    </div>
+    <div class="steps">
+      <div class="step rv"><span class="n">01</span><h3>A call rings out</h3><p>You're mid-job. The call goes to voicemail — which most callers hang up on without leaving a message.</p></div>
+      <div class="step rv"><span class="n">02</span><h3>They get a text — fast</h3><p>Moments later a friendly text arrives from your business, while they still have their phone in hand — before they call the next guy.</p></div>
+      <div class="step rv"><span class="n">03</span><h3>The job stays yours</h3><p>They reply with what they need, you answer when you're free, and the job lands on your schedule instead of a competitor's.</p></div>
+    </div>
+    <div class="demo-bubble rv">
+      <div class="from">TEXT FROM YOUR BUSINESS · moments after a missed call</div>
+      <div class="sms">Hi, this is Mike's Plumbing — sorry we missed your call! We're on a job right now. What can we help you with? Reply here and we'll get right back to you.</div>
+    </div>
+    <div class="fine">
+      <div class="rv"><b>Works with your number</b>No new phone, no new habits. Your line, your name on every text.</div>
+      <div class="rv"><b>Opt-out compliant</b>Anyone can reply STOP and never hears from the system again — handled automatically.</div>
+      <div class="rv"><b>Weekly plain-English report</b>Every week you get one text: calls recovered and the dollars behind them.</div>
+    </div>
+  </div>
+</section>
+
+<!-- OFFER -->
+<section id="offer">
+  <div class="wrap">
+    <div class="rv">
+      <div class="kicker g">Founding-client pricing</div>
+      <h2>Stop the leak this week.</h2>
+      <p class="lead">I set everything up for you — nothing to install, nothing to learn. If it doesn't recover real calls, cancel. No contract.</p>
+      <div class="price">$150<small>/month</small></div>
+      <div class="price-sub">Setup included · no contract · cancel anytime</div>
+      <a class="call-big" href="tel:+16126822614">📞 Call Eli — (612) 682-2614</a>
+      <p class="alt">Prefer email? Use the form on <a href="../#contact">my main page</a> and I'll reach out.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>© <span id="yr"></span> Eli Tanz · Minneapolis, MN</div>
+    <div><a href="../">Website portfolio</a> · <a href="tel:+16126822614">(612) 682-2614</a></div>
+  </div>
+</footer>
+
+<a class="mob-call" id="mobCall" href="tel:+16126822614">📞 Call Eli — stop losing calls</a>
+
+<script>
+document.getElementById('yr').textContent = new Date().getFullYear();
+
+/* nav + mobile bar on scroll (rAF-batched) */
+(function(){
+  var nav=document.getElementById('nav'), bar=document.getElementById('mobCall'), t=false;
+  function s(){ if(t)return; t=true;
+    requestAnimationFrame(function(){
+      var p = window.scrollY > window.innerHeight*0.6;
+      nav.classList.toggle('on',p); bar.classList.toggle('on',p); t=false;
+    });
+  }
+  addEventListener('scroll',s,{passive:true}); s();
+})();
+
+/* reveals — belt & suspenders: IO animates, timeout pins visible no matter what */
+(function(){
+  var els=document.querySelectorAll('.rv');
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+  },{threshold:.12,rootMargin:'0px 0px -40px'});
+  els.forEach(function(el){ io.observe(el); });
+  setTimeout(function(){ els.forEach(function(el){ el.classList.add('in'); }); }, 2200);
+})();
+
+/* calculator */
+(function(){
+  var rMiss=document.getElementById('r-miss'), rVal=document.getElementById('r-val'), rRate=document.getElementById('r-rate');
+  var oMiss=document.getElementById('o-miss'), oVal=document.getElementById('o-val'), oRate=document.getElementById('o-rate');
+  var elM=document.getElementById('perMonth'), elY=document.getElementById('perYear');
+  var fmt=function(n){ return '$'+Math.round(n).toLocaleString('en-US'); };
+  var shownM=0, anim=null;
+
+  function target(){
+    var missed=+rMiss.value, val=+rVal.value, rate=+rRate.value/100;
+    return missed*(52/12)*val*rate; // per month
+  }
+  function render(m){
+    elM.textContent=fmt(m);
+    elY.textContent=fmt(m*12);
+  }
+  function update(){
+    oMiss.textContent=rMiss.value;
+    oVal.textContent='$'+(+rVal.value).toLocaleString('en-US');
+    oRate.textContent=rRate.value+'%';
+    var to=target(), from=shownM, t0=null;
+    if(anim) cancelAnimationFrame(anim);
+    function tick(t){
+      if(!t0)t0=t;
+      var p=Math.min((t-t0)/450,1), e=1-Math.pow(1-p,3), cur=from+(to-from)*e;
+      render(cur);
+      if(p<1){ anim=requestAnimationFrame(tick); } else { shownM=to; anim=null; }
+    }
+    anim=requestAnimationFrame(tick);
+  }
+  [rMiss,rVal,rRate].forEach(function(r){ r.addEventListener('input',update); });
+  shownM=target(); render(shownM); update();
+})();
+</script>
+</body>
+</html>
