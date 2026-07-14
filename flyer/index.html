@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Eli Tanz — walk-in flyer (print me)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#101318;--mut:#5a5e57;--green:#1f8a50;--paper:#fff;
+--disp:"Fraunces",serif;--body:"Inter",system-ui,sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}
+@page{size:letter;margin:0}
+html,body{background:#e8e8e4}
+.sheet{width:8.5in;height:11in;margin:0 auto;background:var(--paper);color:var(--ink);
+font-family:var(--body);position:relative;overflow:hidden;
+display:flex;flex-direction:column;padding:.55in .6in .45in}
+@media print{html,body{background:#fff}.sheet{margin:0;box-shadow:none}}
+@media screen{.sheet{box-shadow:0 20px 60px rgba(0,0,0,.25);margin:24px auto}}
+
+.top{display:flex;justify-content:space-between;align-items:baseline;border-bottom:3px solid var(--ink);padding-bottom:10px}
+.brand{font-family:var(--disp);font-weight:700;font-size:24px}
+.brand span{color:var(--green)}
+.top .ph{font-weight:800;font-size:17px}
+
+h1{font-family:var(--disp);font-weight:600;font-size:44px;line-height:1.06;margin:26px 0 12px}
+h1 em{font-style:italic;color:var(--green)}
+.lead{font-size:14.5px;color:var(--mut);max-width:6.4in;line-height:1.55}
+
+.shots{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin:20px 0 6px}
+.shots figure{border:1px solid #d8d8d2;border-radius:8px;overflow:hidden}
+.shots img{display:block;width:100%;height:1.42in;object-fit:cover;object-position:top}
+.shots figcaption{font-size:9.5px;color:var(--mut);padding:5px 8px;font-weight:600;letter-spacing:.04em}
+.shots-note{font-size:10.5px;color:var(--mut);margin-bottom:16px}
+.shots-note b{color:var(--green)}
+
+.deal{display:grid;grid-template-columns:1.35fr 1fr;gap:16px;margin:6px 0 18px}
+.deal-box{border:2.5px solid var(--ink);border-radius:12px;padding:16px 18px}
+.deal-box h2{font-family:var(--disp);font-size:21px;margin-bottom:8px}
+.deal-box ol{list-style:none;font-size:12.5px;line-height:1.5}
+.deal-box li{margin-bottom:7px;padding-left:22px;position:relative}
+.deal-box li b{display:block}
+.deal-box li::before{content:attr(data-n);position:absolute;left:0;top:1px;font-family:var(--disp);
+font-weight:700;color:var(--green);font-size:15px}
+.price-box{background:var(--ink);color:#fff;border-radius:12px;padding:16px 18px;display:flex;flex-direction:column;justify-content:center;text-align:center}
+.price-box .p{font-family:var(--disp);font-weight:700;font-size:44px;color:#5be095}
+.price-box .p small{font-size:16px;color:#cfd2c9;font-weight:400;font-family:var(--body)}
+.price-box ul{list-style:none;font-size:11.5px;color:#e4e6de;margin-top:8px;line-height:1.65}
+
+.qrs{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:auto}
+.qr{display:flex;gap:14px;align-items:center;border:1px solid #d8d8d2;border-radius:12px;padding:12px 14px}
+.qr img{width:1.05in;height:1.05in}
+.qr b{font-size:13.5px;display:block;margin-bottom:3px}
+.qr p{font-size:11px;color:var(--mut);line-height:1.45}
+.qr .u{font-weight:700;color:var(--green);font-size:11px}
+
+.foot{margin-top:14px;border-top:3px solid var(--ink);padding-top:12px;display:flex;justify-content:space-between;align-items:center}
+.foot .big{font-family:var(--disp);font-weight:700;font-size:22px}
+.foot .big span{color:var(--green)}
+.foot small{font-size:10.5px;color:var(--mut);max-width:3.4in;text-align:right;line-height:1.4}
+</style>
+</head>
+<body>
+<div class="sheet">
+  <div class="top">
+    <div class="brand">Eli Tanz<span>.</span> <span style="color:var(--mut);font-family:var(--body);font-weight:500;font-size:12px">— websites &amp; automation, Minneapolis</span></div>
+    <div class="ph">(612) 682-2614</div>
+  </div>
+
+  <h1>See your business's new website <em>before you pay a dime.</em></h1>
+  <p class="lead">I build complete, professional websites for Minnesota local businesses — plumbers, salons, shops, restaurants — from your real reviews, photos, and services. You get the finished site as a live link first. If you don't love it, you owe nothing.</p>
+
+  <div class="shots">
+    <figure><img src="../assets/shots/schultz-plumbing.jpg" alt="Schultz Plumbing site"><figcaption>SCHULTZ PLUMBING · NEW ULM</figcaption></figure>
+    <figure><img src="../assets/shots/kaffe-stuga.jpg" alt="Kaffe Stuga site"><figcaption>KAFFE STUGA · HARRIS</figcaption></figure>
+    <figure><img src="../assets/shots/seco-electric.jpg" alt="SECO Electric site"><figcaption>SECO ELECTRIC · FRIDLEY</figcaption></figure>
+  </div>
+  <p class="shots-note">Real sites I've built — see 12 more, live, at <b>elitanz.github.io</b> (scan the code below).</p>
+
+  <div class="deal">
+    <div class="deal-box">
+      <h2>How it works</h2>
+      <ol>
+        <li data-n="1"><b>I build it first — free.</b> Your real hours, services, photos and Google reviews. You get a live link on your phone.</li>
+        <li data-n="2"><b>You click every button.</b> Call, directions, quote form — everything works. Want changes? I make them.</li>
+        <li data-n="3"><b>Love it? One flat payment.</b> It goes live under your name and you own it outright. Walk away and it costs $0.</li>
+      </ol>
+    </div>
+    <div class="price-box">
+      <div class="p">$500 <small>one-time</small></div>
+      <ul>
+        <li>No monthly fees — ever</li>
+        <li>Hosting included ($0/mo)</li>
+        <li>Live in days, not months</li>
+        <li>You own it 100%</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="qrs">
+    <div class="qr">
+      <img src="qr-work.png" alt="QR code to elitanz.github.io">
+      <div><b>📱 See the work</b>
+      <p>12 live sites built for real local businesses.</p>
+      <span class="u">elitanz.github.io</span></div>
+    </div>
+    <div class="qr">
+      <img src="qr-calls.png" alt="QR code to missed-calls calculator">
+      <div><b>💸 Missing calls on the job?</b>
+      <p>Calculate what missed calls cost you — and how texting them back automatically fixes it.</p>
+      <span class="u">elitanz.github.io/missed-calls</span></div>
+    </div>
+  </div>
+
+  <div class="foot">
+    <div class="big">Call or text Eli — <span>(612) 682-2614</span></div>
+    <small>Local &amp; independent. Free sample first, always. No contracts, no pressure — the work speaks for itself.</small>
+  </div>
+</div>
+</body>
+</html>
