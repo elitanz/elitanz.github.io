@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The 24/7 Front Desk — AI Receptionist Pilot for Minnesota Practices · Eli Tanz</title>
+<meta name="description" content="Your front desk goes home at 5 — your phone doesn't stop ringing. A 24/7 AI receptionist that answers, books, and texts back missed calls. Free 30-day pilot for one Minnesota practice.">
+<meta property="og:title" content="Your front desk goes home at 5. Your phone doesn't.">
+<meta property="og:description" content="24/7 AI receptionist pilot for clinics, law firms, and property managers — free for 30 days, you only keep it if it books real appointments.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://elitanz.github.io/front-desk/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "24/7 AI Receptionist Pilot",
+  "description": "AI phone answering, appointment booking, and missed-call recovery for practices with front-desk staff.",
+  "provider": {"@type": "ProfessionalService", "name": "Eli Tanz — Web Design & Automation", "telephone": "+16126822614", "address": {"@type": "PostalAddress", "addressLocality": "Minneapolis", "addressRegion": "MN"}},
+  "areaServed": {"@type": "State", "name": "Minnesota"}
+}
+</script>
+<style>
+:root{
+  --ink:#0a0e16; --ink2:#101625; --paper:#f4f1ea; --mut:#9aa0ad;
+  --blue:#6ea8ff; --green:#3ecf7b; --amber:#e8b04b;
+  --disp:"Fraunces",serif; --body:"Inter",system-ui,sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--ink);color:var(--paper);font-family:var(--body);line-height:1.6;overflow-x:clip}
+a{color:inherit}
+h1,h2,h3{font-family:var(--disp);font-weight:600;line-height:1.08}
+.wrap{max-width:1020px;margin:0 auto;padding:0 24px}
+.kicker{font-size:12px;letter-spacing:.22em;text-transform:uppercase;font-weight:600;color:var(--blue)}
+.kicker.g{color:var(--green)}
+.rv{opacity:0;transform:translateY(34px);transition:opacity .8s ease,transform .8s cubic-bezier(.22,1,.36,1)}
+.rv.in{opacity:1;transform:none}
+
+nav{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;align-items:center;justify-content:space-between;
+  padding:14px 28px;background:rgba(10,14,22,.9);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  border-bottom:1px solid rgba(244,241,234,.08);transform:translateY(-110%);transition:transform .45s cubic-bezier(.4,0,.2,1)}
+nav.on{transform:translateY(0)}
+.nv-name{font-family:var(--disp);font-size:20px;font-weight:700;text-decoration:none}
+.nv-name span{color:var(--green)}
+.nv-cta{background:var(--green);color:#07130c;padding:9px 18px;border-radius:999px;font-weight:600;font-size:14px;text-decoration:none}
+
+header{position:relative;min-height:100svh;display:flex;align-items:center;overflow:hidden;
+  background:radial-gradient(ellipse 80% 60% at 75% 15%, rgba(110,168,255,.13), transparent 60%),
+             radial-gradient(ellipse 60% 50% at 15% 95%, rgba(62,207,123,.08), transparent 60%), var(--ink)}
+.hero-in{position:relative;z-index:2;padding:90px 24px;max-width:840px;margin:0 auto;text-align:center}
+.clock{font-size:56px;display:inline-block;margin-bottom:16px}
+h1{font-size:clamp(38px,6.6vw,74px);margin:8px 0 22px}
+h1 em{font-style:italic;color:var(--blue)}
+.hero-sub{font-size:clamp(16px,2vw,20px);color:#d5d3da;max-width:620px;margin:0 auto 34px}
+.btn{display:inline-block;text-decoration:none;font-weight:600;border-radius:999px;padding:16px 34px;font-size:16px;transition:transform .2s}
+.btn-g{background:var(--green);color:#07130c;box-shadow:0 12px 34px rgba(62,207,123,.25)}
+.btn-g:hover{transform:translateY(-2px)}
+.scroll-cue{position:absolute;bottom:26px;left:50%;transform:translateX(-50%);font-size:11px;letter-spacing:.3em;color:var(--mut);text-transform:uppercase}
+.scroll-cue::after{content:"";display:block;width:1px;height:34px;background:linear-gradient(var(--mut),transparent);margin:8px auto 0}
+
+main{position:relative;z-index:5;background:var(--ink);margin-top:-42px;border-radius:34px 34px 0 0;box-shadow:0 -34px 70px -32px rgba(0,0,0,.8)}
+section{padding:90px 0;scroll-margin-top:64px}
+.sec-head{max-width:660px;margin-bottom:46px}
+.sec-head h2{font-size:clamp(30px,4.4vw,50px);margin:14px 0 16px}
+.sec-head p{color:var(--mut);font-size:17px}
+
+/* leak math */
+.leaks{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+@media(max-width:860px){.leaks{grid-template-columns:1fr}}
+.leak{background:var(--ink2);border:1px solid rgba(244,241,234,.1);border-radius:18px;padding:28px 26px}
+.leak .t{font-size:34px;margin-bottom:10px}
+.leak h3{font-size:20px;margin-bottom:8px}
+.leak p{color:var(--mut);font-size:14.5px}
+
+/* what it does */
+#does{background:var(--paper);color:var(--ink);border-radius:34px;margin:0 14px}
+#does .kicker{color:#1f6ac2}
+#does .sec-head p{color:#5c5e55}
+.steps{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+@media(max-width:860px){.steps{grid-template-columns:1fr}}
+.step{background:#fff;border-radius:18px;padding:28px 26px;box-shadow:0 10px 34px rgba(20,24,18,.08)}
+.step h3{font-size:20px;margin-bottom:8px}
+.step p{color:#5c5e55;font-size:14.5px}
+.step .em{font-size:26px;display:block;margin-bottom:10px}
+.fit{margin-top:40px;background:#fff;border-radius:18px;padding:26px 28px;box-shadow:0 10px 34px rgba(20,24,18,.08)}
+.fit b{display:block;margin-bottom:8px;font-size:16px}
+.fit p{color:#5c5e55;font-size:14.5px}
+
+/* pilot */
+#pilot{text-align:center;padding-bottom:120px}
+#pilot h2{font-size:clamp(32px,4.6vw,54px);margin:14px 0 12px}
+#pilot .lead{color:var(--mut);max-width:560px;margin:0 auto 30px}
+.pilot-box{max-width:640px;margin:0 auto 34px;background:var(--ink2);border:1px solid rgba(62,207,123,.35);border-radius:20px;padding:34px 30px}
+.pilot-box .p{font-family:var(--disp);font-weight:700;font-size:clamp(36px,5vw,54px);color:var(--green)}
+.pilot-box .p small{font-size:.38em;color:var(--mut);font-weight:400;font-family:var(--body)}
+.pilot-box ul{list-style:none;margin-top:14px;color:#d5d3da;font-size:15px;line-height:2}
+.pilot-box li::before{content:"✓ ";color:var(--green);font-weight:700}
+.call-big{display:inline-flex;align-items:center;gap:12px;text-decoration:none;background:var(--green);color:#07130c;
+  font-weight:700;font-size:clamp(17px,2.4vw,22px);padding:18px 30px;border-radius:16px;box-shadow:0 14px 40px rgba(62,207,123,.25);transition:transform .2s}
+.call-big:hover{transform:translateY(-2px)}
+.alt{margin-top:16px;font-size:14px;color:var(--mut)}
+.alt a{color:var(--green)}
+.honest{max-width:520px;margin:40px auto 0;font-size:13.5px;color:var(--mut);border-top:1px solid rgba(244,241,234,.1);padding-top:22px}
+
+footer{border-top:1px solid rgba(244,241,234,.08);padding:34px 0;color:var(--mut);font-size:13px}
+footer .wrap{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+footer a{color:var(--mut)}
+.mob-call{position:fixed;bottom:0;left:0;right:0;z-index:49;display:none;background:var(--green);color:#07130c;
+  text-align:center;padding:15px;font-weight:700;text-decoration:none;font-size:16px;transform:translateY(110%);transition:transform .4s}
+.mob-call.on{transform:none}
+@media(max-width:720px){.mob-call{display:block}}
+</style>
+</head>
+<body>
+
+<nav id="nav" aria-label="Main">
+  <a class="nv-name" href="../">Eli<span>.</span></a>
+  <a class="nv-cta" href="#pilot">The free pilot</a>
+</nav>
+
+<header>
+  <div class="hero-in">
+    <span class="clock" aria-hidden="true">🌙</span>
+    <div class="kicker">For clinics · law firms · property managers · multi-truck trades</div>
+    <h1>Your front desk goes home at 5. <em>Your phone doesn't stop ringing.</em></h1>
+    <p class="hero-sub">Evenings, weekends, lunch rushes, sick days — that's when new patients and clients call. A 24/7 AI receptionist answers every one, books them in, and texts back anyone it misses. It never replaces your front desk. It covers everything they can't.</p>
+    <a class="btn btn-g" href="#leak">Where the calls go ↓</a>
+  </div>
+  <div class="scroll-cue">Scroll</div>
+</header>
+
+<main>
+
+<section id="leak">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="kicker">The quiet leak</div>
+      <h2>The calls you never hear about are the expensive ones.</h2>
+      <p>A practice's front desk is great — 40 hours a week. The other 128 hours, callers get voicemail. Most don't leave a message; they call the next listing.</p>
+    </div>
+    <div class="leaks">
+      <div class="leak rv"><span class="t">🌙</span><h3>After hours &amp; weekends</h3><p>The toothache at 9 PM, the tenant emergency on Sunday, the DUI call at 2 AM — high-urgency, high-value callers who won't wait for Monday.</p></div>
+      <div class="leak rv"><span class="t">☎️</span><h3>The busy front desk</h3><p>Your team is checking someone in, and two lines ring. Somebody's call — maybe a new patient worth thousands over their lifetime — hits voicemail.</p></div>
+      <div class="leak rv"><span class="t">👻</span><h3>Voicemail = goodbye</h3><p>Most callers who reach voicemail simply hang up and dial the next name on Google. You never even know they existed.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="does">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="kicker">What the system does</div>
+      <h2>A receptionist that never sleeps, backing up the one who does.</h2>
+      <p>Set up on your existing number. Your front desk keeps doing what they do — this catches everything that slips past.</p>
+    </div>
+    <div class="steps">
+      <div class="step rv"><span class="em">🗣️</span><h3>Answers 24/7, sounds human</h3><p>Every call gets picked up — evenings, weekends, holidays, both lines at once. It answers as YOUR practice, with your services, hours, and tone.</p></div>
+      <div class="step rv"><span class="em">📅</span><h3>Books appointments</h3><p>It doesn't just take messages — it offers open slots and books the caller in, so Monday starts with a fuller schedule, not a voicemail backlog.</p></div>
+      <div class="step rv"><span class="em">💬</span><h3>Texts back missed calls</h3><p>If a caller hangs up before the system answers, they get an instant text from your number — so the lead stays warm instead of calling a competitor.</p></div>
+      <div class="step rv"><span class="em">📊</span><h3>Reports in plain dollars</h3><p>One weekly summary: calls answered after-hours, appointments booked, leads recovered — and what they're worth. You always know what it did.</p></div>
+    </div>
+    <div class="fit rv">
+      <b>Is this you?</b>
+      <p>The test is simple: <em>do you already pay someone to answer the phone and book?</em> Dental, medical, vet and chiropractic clinics · law firms · property management · HVAC/plumbing/electrical with multiple trucks · dealerships · insurance and real-estate offices · salons and spas with a front desk. If callers = revenue and coverage has gaps, this pays for itself with the first few saves.</p>
+    </div>
+  </div>
+</section>
+
+<section id="pilot">
+  <div class="wrap">
+    <div class="rv">
+      <div class="kicker g">One founding spot</div>
+      <h2>Free 30-day pilot. You only keep it if it books real appointments.</h2>
+      <p class="lead">I'm setting this up free for ONE Minnesota practice to prove it with real numbers. I absorb the risk — you get the case study treatment.</p>
+      <div class="pilot-box">
+        <div class="p">$0 <small>for 30 days</small></div>
+        <ul>
+          <li>Full setup done for you — nothing to install or learn</li>
+          <li>Works alongside your front desk, on your existing number</li>
+          <li>Every after-hours call answered from night one</li>
+          <li>Weekly plain-dollar report of what it caught</li>
+          <li>Keep it only if the numbers convince you — no contract</li>
+        </ul>
+      </div>
+      <a class="call-big" href="tel:+16126822614">📞 Call Eli — (612) 682-2614</a>
+      <p class="alt">Questions first? Use the form on <a href="../#contact">my main page</a> and I'll get back to you the same day.</p>
+      <p class="honest">Honest fine print: this augments your front desk — it never replaces people. After the pilot proves its numbers, ongoing service is priced to be a fraction of one hire. If the pilot doesn't book real appointments, walk away owing nothing.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>© <span id="yr"></span> Eli Tanz · Minneapolis, MN</div>
+    <div><a href="../">Website portfolio</a> · <a href="../missed-calls/">Missed-call calculator</a> · <a href="tel:+16126822614">(612) 682-2614</a></div>
+  </div>
+</footer>
+
+<a class="mob-call" id="mobCall" href="tel:+16126822614">📞 Call Eli — claim the free pilot</a>
+
+<script>
+document.getElementById('yr').textContent = new Date().getFullYear();
+(function(){
+  var nav=document.getElementById('nav'), bar=document.getElementById('mobCall'), t=false;
+  function s(){ if(t)return; t=true;
+    requestAnimationFrame(function(){
+      var p = window.scrollY > window.innerHeight*0.6;
+      nav.classList.toggle('on',p); bar.classList.toggle('on',p); t=false;
+    });
+  }
+  addEventListener('scroll',s,{passive:true}); s();
+})();
+(function(){
+  var els=document.querySelectorAll('.rv');
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+  },{threshold:.12,rootMargin:'0px 0px -40px'});
+  els.forEach(function(el){ io.observe(el); });
+  setTimeout(function(){ els.forEach(function(el){ el.classList.add('in'); }); }, 2200);
+})();
+</script>
+</body>
+</html>
