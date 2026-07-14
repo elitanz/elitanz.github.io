@@ -20,7 +20,7 @@
   "name": "Eli Tanz — Web Design & Automation",
   "description": "Websites and customer-recovery automation for Minnesota local businesses.",
   "url": "https://elitanz.github.io/",
-  "telephone": "+16126822614",
+  "telephone": "+16124038376",
   "priceRange": "$500",
   "areaServed": {"@type": "State", "name": "Minnesota"},
   "address": {"@type": "PostalAddress", "addressLocality": "Minneapolis", "addressRegion": "MN", "addressCountry": "US"}
@@ -325,7 +325,7 @@ footer a{color:var(--mut)}
       <div class="kicker">Let's talk</div>
       <h2>Get your free sample site.</h2>
       <p class="lead">Tell me your business name and town. If it's a fit, I'll build the site and send you the live link — free, no strings.</p>
-      <a class="call-big" href="tel:+16126822614">📞 Call Eli — (612) 682-2614</a>
+      <a class="call-big" href="tel:+16124038376">📞 Call Eli — (612) 403-8376</a>
     </div>
     <form id="leadForm" class="rv" novalidate>
       <label for="f-name">Your name</label>
@@ -348,11 +348,11 @@ footer a{color:var(--mut)}
 <footer>
   <div class="wrap">
     <div>© <span id="yr"></span> Eli Tanz · Minneapolis, MN</div>
-    <div><a href="tel:+16126822614">(612) 682-2614</a> · <a href="missed-calls/">Missed-Call Text-Back</a></div>
+    <div><a href="tel:+16124038376">(612) 403-8376</a> · <a href="missed-calls/">Missed-Call Text-Back</a></div>
   </div>
 </footer>
 
-<a class="mob-call" id="mobCall" href="tel:+16126822614">📞 Call Eli — free sample site</a>
+<a class="mob-call" id="mobCall" href="tel:+16124038376">📞 Call Eli — free sample site</a>
 
 <script>
 document.getElementById('yr').textContent = new Date().getFullYear();
@@ -419,7 +419,7 @@ document.getElementById('yr').textContent = new Date().getFullYear();
       body: JSON.stringify({ _subject:'🟢 Free sample request — ' + biz, name:name, business:biz, phone:ph, message:form.message.value.trim(), _honey:form._honey.value })
     }).then(function(r){ if(!r.ok) throw 0; return r.json(); })
     .then(function(){ msg.className='form-msg ok'; msg.textContent = "Got it — I'll text you within a day."; form.reset(); btn.textContent='Sent ✓'; })
-    .catch(function(){ msg.className='form-msg err'; msg.textContent = 'Hmm, that didn\'t go through — just call or text (612) 682-2614.'; btn.disabled=false; btn.textContent='Send — get my free sample'; });
+    .catch(function(){ msg.className='form-msg err'; msg.textContent = 'Hmm, that didn\'t go through — just call or text (612) 403-8376.'; btn.disabled=false; btn.textContent='Send — get my free sample'; });
   });
 })();
 </script>
