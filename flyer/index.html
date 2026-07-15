@@ -7,116 +7,125 @@
 <title>Eli Tanz — walk-in flyer (print me)</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <style>
-:root{--ink:#101318;--mut:#5a5e57;--green:#1f8a50;--paper:#fff;
---disp:"Fraunces",serif;--body:"Inter",system-ui,sans-serif}
+:root{--ink:#0e0e10;--mut:#5c5c60;--acc:#c9f73a;--paper:#fff;
+--disp:"Space Grotesk",sans-serif;--body:"Inter",system-ui,sans-serif;--mono:"JetBrains Mono",monospace}
 *{margin:0;padding:0;box-sizing:border-box}
 @page{size:letter;margin:0}
-html,body{background:#e8e8e4}
+html,body{background:#e6e6e2}
 .sheet{width:8.5in;height:11in;margin:0 auto;background:var(--paper);color:var(--ink);
-font-family:var(--body);position:relative;overflow:hidden;
-display:flex;flex-direction:column;padding:.55in .6in .45in}
+font-family:var(--body);position:relative;overflow:hidden;display:flex;flex-direction:column}
 @media print{html,body{background:#fff}.sheet{margin:0;box-shadow:none}}
 @media screen{.sheet{box-shadow:0 20px 60px rgba(0,0,0,.25);margin:24px auto}}
+.mono{font-family:var(--mono);font-size:8.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--mut)}
 
-.top{display:flex;justify-content:space-between;align-items:baseline;border-bottom:3px solid var(--ink);padding-bottom:10px}
-.brand{font-family:var(--disp);font-weight:700;font-size:24px}
-.brand span{color:var(--green)}
-.top .ph{font-weight:800;font-size:17px}
+.top{background:var(--ink);color:#fff;padding:.34in .55in;display:flex;justify-content:space-between;align-items:center}
+.brand{font-family:var(--disp);font-weight:700;font-size:20px;letter-spacing:-.02em}
+.brand i{font-style:normal;color:var(--acc)}
+.top .mono{color:#9a9aa0}
+.top .ph{font-family:var(--disp);font-weight:700;font-size:16px}
+.top .ph i{font-style:normal;color:var(--acc)}
 
-h1{font-family:var(--disp);font-weight:600;font-size:44px;line-height:1.06;margin:26px 0 12px}
-h1 em{font-style:italic;color:var(--green)}
-.lead{font-size:14.5px;color:var(--mut);max-width:6.4in;line-height:1.55}
+.body{padding:.42in .55in 0;display:flex;flex-direction:column;flex:1}
+h1{font-family:var(--disp);font-weight:700;font-size:41px;line-height:1;letter-spacing:-.03em;text-transform:uppercase;margin:10px 0 12px}
+h1 span{color:transparent;-webkit-text-stroke:1.3px var(--ink)}
+.lead{font-size:13px;color:var(--mut);max-width:6.5in;line-height:1.55}
 
-.shots{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin:20px 0 6px}
-.shots figure{border:1px solid #d8d8d2;border-radius:8px;overflow:hidden}
+.shots{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1px;background:rgba(14,14,16,.2);border:1px solid rgba(14,14,16,.2);margin:18px 0 8px}
+.shots figure{background:#fff}
 .shots img{display:block;width:100%;height:1.42in;object-fit:cover;object-position:top}
-.shots figcaption{font-size:9.5px;color:var(--mut);padding:5px 8px;font-weight:600;letter-spacing:.04em}
-.shots-note{font-size:10.5px;color:var(--mut);margin-bottom:16px}
-.shots-note b{color:var(--green)}
+.shots figcaption{font-family:var(--mono);font-size:7.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--mut);padding:6px 9px}
+.shots-note{font-family:var(--mono);font-size:8.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--mut);margin-bottom:16px}
+.shots-note b{color:var(--ink)}
 
-.deal{display:grid;grid-template-columns:1.35fr 1fr;gap:16px;margin:6px 0 18px}
-.deal-box{border:2.5px solid var(--ink);border-radius:12px;padding:16px 18px}
-.deal-box h2{font-family:var(--disp);font-size:21px;margin-bottom:8px}
-.deal-box ol{list-style:none;font-size:12.5px;line-height:1.5}
-.deal-box li{margin-bottom:7px;padding-left:22px;position:relative}
-.deal-box li b{display:block}
-.deal-box li::before{content:attr(data-n);position:absolute;left:0;top:1px;font-family:var(--disp);
-font-weight:700;color:var(--green);font-size:15px}
-.price-box{background:var(--ink);color:#fff;border-radius:12px;padding:16px 18px;display:flex;flex-direction:column;justify-content:center;text-align:center}
-.price-box .p{font-family:var(--disp);font-weight:700;font-size:44px;color:#5be095}
-.price-box .p small{font-size:16px;color:#cfd2c9;font-weight:400;font-family:var(--body)}
-.price-box ul{list-style:none;font-size:11.5px;color:#e4e6de;margin-top:8px;line-height:1.65}
+.deal{display:grid;grid-template-columns:1.4fr 1fr;gap:1px;background:rgba(14,14,16,.2);border:1px solid rgba(14,14,16,.2);margin-bottom:16px}
+.deal-box{background:#fff;padding:15px 18px}
+.deal-box h2{font-family:var(--disp);font-size:15px;font-weight:700;text-transform:uppercase;letter-spacing:-.01em;margin-bottom:10px}
+.deal-box ol{list-style:none;font-size:11px;line-height:1.45}
+.deal-box li{margin-bottom:8px;padding-left:26px;position:relative;color:#454549}
+.deal-box li b{display:block;color:var(--ink)}
+.deal-box li::before{content:attr(data-n);position:absolute;left:0;top:2px;font-family:var(--mono);
+font-weight:600;color:var(--ink);font-size:9px;border:1px solid var(--ink);border-radius:50%;
+width:16px;height:16px;line-height:15px;text-align:center}
+.price-box{background:var(--ink);color:#fff;padding:15px 18px;display:flex;flex-direction:column;justify-content:center}
+.price-box .p{font-family:var(--disp);font-weight:700;font-size:38px;letter-spacing:-.03em;color:var(--acc);line-height:1}
+.price-box .p small{font-family:var(--mono);font-size:9px;color:#9a9aa0;letter-spacing:.14em;font-weight:400}
+.price-box ul{list-style:none;margin-top:10px;font-size:10px;color:#d8d8dc;line-height:1.8}
+.price-box li::before{content:"→ ";color:var(--acc);font-family:var(--mono)}
 
-.qrs{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:auto}
-.qr{display:flex;gap:14px;align-items:center;border:1px solid #d8d8d2;border-radius:12px;padding:12px 14px}
-.qr img{width:1.05in;height:1.05in}
-.qr b{font-size:13.5px;display:block;margin-bottom:3px}
-.qr p{font-size:11px;color:var(--mut);line-height:1.45}
-.qr .u{font-weight:700;color:var(--green);font-size:11px}
+.qrs{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:rgba(14,14,16,.2);border:1px solid rgba(14,14,16,.2);margin-top:auto}
+.qr{background:#fff;display:flex;gap:14px;align-items:center;padding:13px 16px}
+.qr img{width:1in;height:1in}
+.qr b{font-family:var(--disp);font-size:12.5px;display:block;margin-bottom:3px;text-transform:uppercase;letter-spacing:-.01em}
+.qr p{font-size:10px;color:var(--mut);line-height:1.45}
+.qr .u{font-family:var(--mono);font-weight:600;color:var(--ink);font-size:9px;letter-spacing:.06em}
 
-.foot{margin-top:14px;border-top:3px solid var(--ink);padding-top:12px;display:flex;justify-content:space-between;align-items:center}
-.foot .big{font-family:var(--disp);font-weight:700;font-size:22px}
-.foot .big span{color:var(--green)}
-.foot small{font-size:10.5px;color:var(--mut);max-width:3.4in;text-align:right;line-height:1.4}
+.foot{background:var(--ink);color:#fff;margin-top:14px;padding:.26in .55in;display:flex;justify-content:space-between;align-items:center}
+.foot .big{font-family:var(--disp);font-weight:700;font-size:19px;letter-spacing:-.01em}
+.foot .big i{font-style:normal;color:var(--acc)}
+.foot .mono{color:#9a9aa0;max-width:3.2in;text-align:right;line-height:1.6}
 </style>
 </head>
 <body>
 <div class="sheet">
   <div class="top">
-    <div class="brand">Eli Tanz<span>.</span> <span style="color:var(--mut);font-family:var(--body);font-weight:500;font-size:12px">— websites &amp; automation, Minneapolis</span></div>
-    <div class="ph">(612) 403-8376</div>
+    <div class="brand">ELI TANZ<i>.</i></div>
+    <span class="mono">WEB &amp; AUTOMATION STUDIO — MINNEAPOLIS, MN</span>
+    <div class="ph">(612) 403-8376<i>.</i></div>
   </div>
 
-  <h1>See your business's new website <em>before you pay a dime.</em></h1>
-  <p class="lead">I build complete, professional websites for Minnesota local businesses — plumbers, salons, shops, restaurants — from your real reviews, photos, and services. You get the finished site as a live link first. If you don't love it, you owe nothing.</p>
+  <div class="body">
+    <span class="mono">/ THE OFFER</span>
+    <h1>See your new website <span>before you pay a dime.</span></h1>
+    <p class="lead">Complete, professional websites for Minnesota local businesses — built from your real reviews, photos, and services. The finished site lands on your phone as a live link first. Don't love it? You owe nothing.</p>
 
-  <div class="shots">
-    <figure><img src="../assets/shots/schultz-plumbing.jpg" alt="Schultz Plumbing site"><figcaption>SCHULTZ PLUMBING · NEW ULM</figcaption></figure>
-    <figure><img src="../assets/shots/kaffe-stuga.jpg" alt="Kaffe Stuga site"><figcaption>KAFFE STUGA · HARRIS</figcaption></figure>
-    <figure><img src="../assets/shots/seco-electric.jpg" alt="SECO Electric site"><figcaption>SECO ELECTRIC · FRIDLEY</figcaption></figure>
-  </div>
-  <p class="shots-note">Real sites I've built — see 12 more, live, at <b>elitanz.github.io</b> (scan the code below).</p>
+    <div class="shots">
+      <figure><img src="../assets/shots/schultz-plumbing.jpg" alt="Schultz Plumbing site"><figcaption>Schultz Plumbing — New Ulm</figcaption></figure>
+      <figure><img src="../assets/shots/kaffe-stuga.jpg" alt="Kaffe Stuga site"><figcaption>Kaffe Stuga — Harris</figcaption></figure>
+      <figure><img src="../assets/shots/seco-electric.jpg" alt="SECO Electric site"><figcaption>SECO Electric — Fridley</figcaption></figure>
+    </div>
+    <p class="shots-note">REAL SITES, LIVE NOW — SEE 12 MORE AT <b>ELITANZ.GITHUB.IO</b> (SCAN BELOW)</p>
 
-  <div class="deal">
-    <div class="deal-box">
-      <h2>How it works</h2>
-      <ol>
-        <li data-n="1"><b>I build it first — free.</b> Your real hours, services, photos and Google reviews. You get a live link on your phone.</li>
-        <li data-n="2"><b>You click every button.</b> Call, directions, quote form — everything works. Want changes? I make them.</li>
-        <li data-n="3"><b>Love it? One flat payment.</b> It goes live under your name and you own it outright. Walk away and it costs $0.</li>
-      </ol>
+    <div class="deal">
+      <div class="deal-box">
+        <h2>How it works</h2>
+        <ol>
+          <li data-n="1"><b>Built first. Free.</b> Your real hours, services, photos and Google reviews — a live link on your phone.</li>
+          <li data-n="2"><b>You test everything.</b> Call, directions, quote form — all working. Revisions included.</li>
+          <li data-n="3"><b>Own it outright.</b> One flat payment, live under your name. Walk away and it costs $0.</li>
+        </ol>
+      </div>
+      <div class="price-box">
+        <div class="p">$500 <small>ONE-TIME</small></div>
+        <ul>
+          <li>No monthly fees — ever</li>
+          <li>Hosting included ($0/mo)</li>
+          <li>Live in days, not months</li>
+          <li>You own it 100%</li>
+        </ul>
+      </div>
     </div>
-    <div class="price-box">
-      <div class="p">$500 <small>one-time</small></div>
-      <ul>
-        <li>No monthly fees — ever</li>
-        <li>Hosting included ($0/mo)</li>
-        <li>Live in days, not months</li>
-        <li>You own it 100%</li>
-      </ul>
-    </div>
-  </div>
 
-  <div class="qrs">
-    <div class="qr">
-      <img src="qr-work.png" alt="QR code to elitanz.github.io">
-      <div><b>📱 See the work</b>
-      <p>12 live sites built for real local businesses.</p>
-      <span class="u">elitanz.github.io</span></div>
-    </div>
-    <div class="qr">
-      <img src="qr-calls.png" alt="QR code to missed-calls calculator">
-      <div><b>💸 Missing calls on the job?</b>
-      <p>Calculate what missed calls cost you — and how texting them back automatically fixes it.</p>
-      <span class="u">elitanz.github.io/missed-calls</span></div>
+    <div class="qrs">
+      <div class="qr">
+        <img src="qr-work.png" alt="QR code to elitanz.github.io">
+        <div><b>See the work</b>
+        <p>12 live sites built for real local businesses.</p>
+        <span class="u">ELITANZ.GITHUB.IO</span></div>
+      </div>
+      <div class="qr">
+        <img src="qr-calls.png" alt="QR code to missed-calls calculator">
+        <div><b>Missing calls on the job?</b>
+        <p>Calculate what missed calls cost you — and the automatic fix.</p>
+        <span class="u">ELITANZ.GITHUB.IO/MISSED-CALLS</span></div>
+      </div>
     </div>
   </div>
 
   <div class="foot">
-    <div class="big">Call or text Eli — <span>(612) 403-8376</span></div>
-    <small>Local &amp; independent. Free sample first, always. No contracts, no pressure — the work speaks for itself.</small>
+    <div class="big">CALL OR TEXT — <i>(612) 403-8376</i></div>
+    <span class="mono">LOCAL &amp; INDEPENDENT · FREE SAMPLE FIRST, ALWAYS · NO CONTRACTS — THE WORK SPEAKS FOR ITSELF</span>
   </div>
 </div>
 </body>
