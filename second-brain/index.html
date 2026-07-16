@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A Second Brain for Your Business — Never Lose a Customer Detail Again · Eli Tanz</title>
+<meta name="description" content="A private, AI-organized memory for your business. Capture customer details, quotes, and follow-ups by voice or text — then just ask it anything. One-time setup for Minnesota local businesses.">
+<meta property="og:title" content="Your business runs on things you forgot to write down.">
+<meta property="og:description" content="A private AI 'second brain' that remembers every customer detail, quote, and follow-up — so you don't have to. One-time setup, yours to keep.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://elitanz.github.io/second-brain/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Business Second Brain — AI Knowledge Setup",
+  "description": "A private, AI-organized memory system for local businesses. Capture customer details, quotes and follow-ups, then ask questions in plain language.",
+  "provider": {"@type": "ProfessionalService", "name": "Eli Tanz — Web & Automation Studio", "telephone": "+16124038376", "address": {"@type": "PostalAddress", "addressLocality": "Minneapolis", "addressRegion": "MN"}},
+  "areaServed": {"@type": "State", "name": "Minnesota"}
+}
+</script>
+<style>
+:root{
+  --bg:#0a0a0f; --panel:#101018; --line:rgba(255,255,255,.1); --line2:rgba(255,255,255,.18);
+  --txt:#f3f3f1; --mut:#8b8b95; --acc:#8b7bff; --grn:#f3f3f1;
+  --disp:"Space Grotesk",sans-serif; --body:"Inter",system-ui,sans-serif; --mono:"JetBrains Mono",monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+::selection{background:var(--acc);color:#fff}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--txt);font-family:var(--body);line-height:1.6;overflow-x:clip;font-size:15px}
+a{color:inherit}
+h1,h2,h3{font-family:var(--disp);font-weight:700;line-height:1.02;letter-spacing:-.03em}
+.wrap{max-width:1120px;margin:0 auto;padding:0 28px}
+.mono{font-family:var(--mono);font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--mut);font-weight:400}
+.rv{opacity:0;transform:translateY(30px);transition:opacity .7s ease,transform .7s cubic-bezier(.22,1,.36,1)}
+.rv.in{opacity:1;transform:none}
+
+nav{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;align-items:center;justify-content:space-between;
+  padding:0 28px;height:60px;background:rgba(10,10,15,.85);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
+  border-bottom:1px solid var(--line);transform:translateY(-110%);transition:transform .4s cubic-bezier(.4,0,.2,1)}
+nav.on{transform:translateY(0)}
+.nv-mark{font-family:var(--disp);font-weight:700;font-size:16px;text-decoration:none}
+.nv-mark i{font-style:normal;color:var(--acc)}
+.nv-cta{background:var(--acc);color:#fff;padding:9px 18px;border-radius:6px;font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;text-decoration:none}
+
+header{position:relative;min-height:100svh;display:flex;flex-direction:column;justify-content:center;overflow:hidden;
+  background:radial-gradient(ellipse 70% 55% at 72% 18%, rgba(139,123,255,.16), transparent 62%), var(--bg)}
+.hero-in{position:relative;z-index:2;max-width:1120px;margin:0 auto;padding:0 28px;width:100%}
+.hero-in .mono{display:block;margin-bottom:26px}
+.hero-in .mono b{color:var(--acc);font-weight:600}
+h1{font-size:clamp(42px,7.4vw,98px);text-transform:uppercase;max-width:15ch}
+h1 span{color:transparent;-webkit-text-stroke:1.5px var(--acc)}
+.hero-sub{font-size:clamp(15px,1.7vw,18px);color:#c9c9cf;max-width:520px;margin:28px 0 36px}
+.btn{display:inline-flex;align-items:center;gap:10px;text-decoration:none;font-family:var(--disp);font-weight:600;
+  border-radius:8px;padding:16px 30px;font-size:15px;background:var(--acc);color:#fff;transition:transform .2s}
+.btn i{font-style:normal;transition:transform .25s}
+.btn:hover{transform:translateY(-2px)}
+.btn:hover i{transform:translateY(3px)}
+.hero-meta{position:absolute;bottom:0;left:0;right:0;z-index:2;border-top:1px solid var(--line)}
+.hero-meta .wrap{display:flex;justify-content:space-between;padding-top:16px;padding-bottom:16px}
+@media(max-width:760px){.hero-meta .wrap span:nth-child(2){display:none}}
+
+main{position:relative;z-index:5;background:var(--bg)}
+section{padding:110px 0;scroll-margin-top:60px}
+.sec-bar{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid var(--line);padding-bottom:18px;margin-bottom:24px}
+.sec-bar h2{font-size:clamp(28px,4.4vw,54px);text-transform:uppercase}
+.sec-bar h2 em{font-style:normal;color:var(--acc)}
+.sec-lead{color:var(--mut);font-size:16px;max-width:600px;margin:0 0 46px}
+
+/* problem — where it lives now */
+.mess{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+@media(max-width:860px){.mess{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.mess{grid-template-columns:1fr}}
+.mess div{background:var(--panel);padding:30px 26px}
+.mess .n{font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;color:var(--acc)}
+.mess h3{font-size:19px;margin:16px 0 8px;letter-spacing:-.02em}
+.mess p{color:var(--mut);font-size:14px}
+.pain{margin-top:44px;border-left:2px solid var(--acc);padding:6px 0 6px 24px;font-family:var(--disp);font-weight:500;
+  font-size:clamp(19px,2.6vw,28px);letter-spacing:-.02em;color:#e4e2ff;max-width:22ch;line-height:1.2}
+
+/* how / what it is — light section */
+#how{background:#f2f1ee;color:#111015}
+#how .sec-bar{border-color:rgba(16,16,20,.15)}
+#how .mono{color:#71716c}
+#how .sec-lead{color:#5a5a56}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(16,16,20,.15);border:1px solid rgba(16,16,20,.15)}
+@media(max-width:860px){.steps{grid-template-columns:1fr}}
+.step{background:#f2f1ee;padding:38px 32px}
+.step .n{font-family:var(--disp);font-weight:700;font-size:15px;display:inline-block;
+  border:1.5px solid #111015;border-radius:50%;width:44px;height:44px;line-height:41px;text-align:center;margin-bottom:22px}
+.step h3{font-size:21px;margin-bottom:10px;letter-spacing:-.02em}
+.step p{color:#5a5a56;font-size:14.5px}
+.demo{max-width:500px;margin:50px auto 0;background:#fff;border:1px solid rgba(16,16,20,.15);border-radius:14px;padding:24px 26px;box-shadow:0 18px 50px rgba(16,16,20,.12)}
+.demo .from{font-family:var(--mono);font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:#8a8a85;margin-bottom:14px}
+.demo .ask{background:#e9e6ff;border-radius:14px 14px 4px 14px;padding:13px 16px;font-size:14.5px;color:#231c40;margin-left:auto;max-width:80%;text-align:right}
+.demo .ans{background:#eef3e2;border-radius:14px 14px 14px 4px;padding:13px 16px;font-size:14.5px;color:#1c221a;margin-top:12px;max-width:88%}
+.fine{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(16,16,20,.15);border:1px solid rgba(16,16,20,.15);margin-top:50px}
+@media(max-width:720px){.fine{grid-template-columns:1fr}}
+.fine div{background:#fff;padding:22px 24px;font-size:13.5px;color:#5a5a56}
+.fine b{display:block;color:#111015;margin-bottom:6px;font-family:var(--disp);font-size:15px}
+
+/* ask it — use cases */
+#ask .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+@media(max-width:720px){#ask .grid{grid-template-columns:1fr}}
+.q{background:var(--panel);padding:30px 30px;display:flex;gap:18px;align-items:flex-start}
+.q .ic{font-family:var(--mono);color:var(--acc);font-size:13px;margin-top:3px}
+.q p{font-size:16px;color:#d8d8de;letter-spacing:-.01em}
+.q p b{color:var(--txt);font-family:var(--disp);font-weight:600}
+
+/* offer */
+#offer{padding-bottom:130px}
+.offer-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+@media(max-width:860px){.offer-grid{grid-template-columns:1fr}}
+#offer h2{font-size:clamp(36px,5.6vw,72px);text-transform:uppercase}
+#offer h2 span{color:transparent;-webkit-text-stroke:1.5px var(--txt)}
+#offer .lead{color:var(--mut);margin:22px 0 32px;max-width:46ch}
+.call-big{display:inline-flex;align-items:center;gap:12px;text-decoration:none;background:var(--acc);color:#fff;
+  font-family:var(--disp);font-weight:700;font-size:clamp(16px,2vw,20px);padding:18px 28px;border-radius:8px;transition:transform .2s}
+.call-big:hover{transform:translateY(-2px)}
+.text-link{display:block;margin-top:16px;font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--acc);text-decoration:none}
+.price-box{border:1px solid var(--line);background:var(--panel);padding:40px 36px}
+.price-box .p{font-family:var(--disp);font-weight:700;font-size:clamp(44px,5.6vw,64px);letter-spacing:-.03em;color:var(--txt)}
+.price-box .p small{font-size:.3em;color:var(--mut);font-weight:400;font-family:var(--mono);letter-spacing:.1em}
+.price-box ul{list-style:none;margin-top:18px}
+.price-box li{padding:11px 2px;border-bottom:1px solid var(--line);color:#d6d6da;font-size:14px;display:flex;gap:12px;align-items:baseline}
+.price-box li:last-child{border:none}
+.price-box li::before{content:"→";color:var(--acc);font-family:var(--mono)}
+
+footer{border-top:1px solid var(--line);padding:26px 0}
+footer .wrap{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--mut)}
+footer a{color:var(--mut);text-decoration:none}
+footer a:hover{color:var(--acc)}
+.mob-call{position:fixed;bottom:0;left:0;right:0;z-index:49;display:none;background:var(--acc);color:#fff;
+  text-align:center;padding:15px;font-family:var(--disp);font-weight:700;text-decoration:none;font-size:15px;transform:translateY(110%);transition:transform .4s}
+.mob-call.on{transform:none}
+@media(max-width:720px){.mob-call{display:block}}
+</style>
+</head>
+<body>
+
+<nav id="nav" aria-label="Main">
+  <a class="nv-mark" href="../">ELI TANZ<i>.</i></a>
+  <a class="nv-cta" href="#offer">Build my brain</a>
+</nav>
+
+<header>
+  <div class="hero-in">
+    <span class="mono"><b>SYSTEM S/03</b> — BUSINESS SECOND BRAIN · FOR MN TRADES &amp; LOCAL BUSINESS</span>
+    <h1>Your business runs on things you <span>forgot to write down.</span></h1>
+    <p class="hero-sub">The quote you promised. What the Johnsons wanted. Which supplier had it cheaper. It's in your head, a text, or a sticky note that's already gone.</p>
+    <a class="btn" href="#how">See how it works <i>↓</i></a>
+  </div>
+  <div class="hero-meta">
+    <div class="wrap mono"><span>SCROLL ↓</span><span>ONE PLACE · ASK IT ANYTHING</span><span>MPLS, MN</span></div>
+  </div>
+</header>
+
+<main>
+
+<!-- PROBLEM -->
+<section id="mess">
+  <div class="wrap">
+    <div class="sec-bar rv"><h2>Where your business memory <em>lives now</em></h2><span class="mono">/ 01 — THE PROBLEM</span></div>
+    <p class="sec-lead rv">Every customer detail, price, and promise is scattered across five places that don't talk to each other — and none of them are searchable at 7am before the job.</p>
+    <div class="mess rv">
+      <div><span class="n">01</span><h3>Your head</h3><p>Fine until you're tired, busy, or it's three weeks later.</p></div>
+      <div><span class="n">02</span><h3>Text threads</h3><p>The detail's in there somewhere — good luck scrolling to it.</p></div>
+      <div><span class="n">03</span><h3>Sticky notes</h3><p>On the dash, the counter, the truck. Half of them lost.</p></div>
+      <div><span class="n">04</span><h3>A notebook</h3><p>One copy. If it's not with you, the info isn't either.</p></div>
+    </div>
+    <p class="pain rv">A forgotten detail is a lost job, an unhappy customer, or money left on the table.</p>
+  </div>
+</section>
+
+<!-- HOW / WHAT IT IS -->
+<section id="how">
+  <div class="wrap">
+    <div class="sec-bar rv"><h2>One private brain. Ask it anything.</h2><span class="mono">/ 02 — WHAT IT IS</span></div>
+    <p class="sec-lead rv">A private, AI-organized memory for your business — set up for you and yours to keep. You dump things in messily; it files them. Then you just ask.</p>
+    <div class="steps rv">
+      <div class="step"><span class="n">01</span><h3>Dump it in — messy is fine</h3><p>Type or talk: "Quoted the Johnsons $1,200 for the water heater, wants it next Tuesday." No forms, no folders to think about.</p></div>
+      <div class="step"><span class="n">02</span><h3>It organizes itself</h3><p>The AI cleans it up, tags it, and files it — customers, quotes, suppliers, follow-ups — automatically, every day.</p></div>
+      <div class="step"><span class="n">03</span><h3>Ask in plain words</h3><p>"What did I quote the Johnsons?" "Who's owed a follow-up this week?" It answers instantly from everything you've told it.</p></div>
+    </div>
+    <div class="demo rv">
+      <div class="from">YOU · ASKING YOUR BUSINESS BRAIN</div>
+      <div class="ask">What did the Johnsons want and what did I quote?</div>
+      <div class="ans">The Johnsons (612-555-0148, Edina) asked for a 50-gallon water heater replacement. You quoted <b>$1,200</b> on July 9 and they want it installed <b>next Tuesday</b>. You haven't sent the written estimate yet.</div>
+    </div>
+    <div class="fine rv">
+      <div><b>100% private</b>It's your data, on your side. Not shared, not sold, not public.</div>
+      <div><b>Yours to keep</b>Set up once and it's yours — no monthly fee to hold your own notes hostage.</div>
+      <div><b>Works from your phone</b>Capture and ask from anywhere — the truck, the counter, the couch.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ASK IT -->
+<section id="ask">
+  <div class="wrap">
+    <div class="sec-bar rv"><h2>Things you'll <em>actually ask it</em></h2><span class="mono">/ 03 — IN REAL LIFE</span></div>
+    <p class="sec-lead rv">Real questions from a real week — answered in seconds instead of a frantic scroll through your texts.</p>
+    <div class="grid rv">
+      <div class="q"><span class="ic">›</span><p><b>"Who did I promise a callback this week?"</b> — every open follow-up, in one list.</p></div>
+      <div class="q"><span class="ic">›</span><p><b>"What's the gate code for the Anderson place?"</b> — job-site details, instantly.</p></div>
+      <div class="q"><span class="ic">›</span><p><b>"What did we charge the last time we did this?"</b> — past jobs and prices, on tap.</p></div>
+      <div class="q"><span class="ic">›</span><p><b>"Which supplier had the best price on that part?"</b> — your own notes, searchable.</p></div>
+      <div class="q"><span class="ic">›</span><p><b>"Summarize everything on the Miller job."</b> — the whole history in one answer.</p></div>
+      <div class="q"><span class="ic">›</span><p><b>"Who hasn't paid their invoice yet?"</b> — nothing slips through anymore.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- OFFER -->
+<section id="offer">
+  <div class="wrap offer-grid">
+    <div class="rv">
+      <span class="mono">/ 04 — DONE-FOR-YOU SETUP</span>
+      <h2 style="margin-top:14px">Get your brain <span>built this week.</span></h2>
+      <p class="lead">I set the whole thing up for your business, load in what you already have, and show you how to use it in 20 minutes. One flat fee — then it's yours.</p>
+      <a class="call-big" href="tel:+16124038376">Call (612) 403-8376 <i>→</i></a>
+      <a class="text-link" href="sms:+16124038376&body=Hi%20Eli%20—%20interested%20in%20a%20second%20brain%20setup%20for%20my%20business.">Or text — same-day reply ↗</a>
+    </div>
+    <div class="price-box rv">
+      <div class="p">$300<small> ONE-TIME</small></div>
+      <ul>
+        <li>Set up and organized for you</li>
+        <li>Your existing notes loaded in</li>
+        <li>Daily auto-tidy so it stays clean</li>
+        <li>20-minute walkthrough included</li>
+        <li>Yours to keep — no monthly fee</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>© <span id="yr"></span> ELI TANZ — MPLS, MN</div>
+    <div><a href="../">PORTFOLIO</a> · <a href="../missed-calls/">MISSED-CALLS</a> · <a href="../front-desk/">FRONT-DESK</a> · <a href="tel:+16124038376">(612) 403-8376</a></div>
+  </div>
+</footer>
+
+<a class="mob-call" id="mobCall" href="tel:+16124038376">Build my business brain</a>
+
+<script>
+document.getElementById('yr').textContent = new Date().getFullYear();
+(function(){
+  var nav=document.getElementById('nav'), bar=document.getElementById('mobCall'), t=false;
+  function s(){ if(t)return; t=true;
+    requestAnimationFrame(function(){
+      var p = window.scrollY > window.innerHeight*0.6;
+      nav.classList.toggle('on',p); bar.classList.toggle('on',p); t=false;
+    });
+  }
+  addEventListener('scroll',s,{passive:true}); s();
+})();
+(function(){
+  var els=document.querySelectorAll('.rv');
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+  },{threshold:.1,rootMargin:'0px 0px -40px'});
+  els.forEach(function(el){ io.observe(el); });
+  setTimeout(function(){ els.forEach(function(el){ el.classList.add('in'); }); }, 2200);
+})();
+</script>
+</body>
+</html>
