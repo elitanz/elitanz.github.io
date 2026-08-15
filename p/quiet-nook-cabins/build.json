@@ -1,0 +1,17 @@
+{
+  "name": "Quiet Nook Cabins",
+  "slug": "quiet-nook-cabins",
+  "trade_key": "carpenter",
+  "city": "Gonvick",
+  "phone": "(218) 487-5235",
+  "source_site": "",
+  "scraped_ok": false,
+  "real_fields": [],
+  "placeholder_fields": [
+    "about",
+    "headline",
+    "services"
+  ],
+  "url": "https://elitanz.github.io/p/quiet-nook-cabins/",
+  "built_at": "2026-08-15T15:35:52.290551+00:00"
+}

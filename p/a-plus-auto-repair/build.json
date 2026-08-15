@@ -1,0 +1,17 @@
+{
+  "name": "A-Plus Auto Repair",
+  "slug": "a-plus-auto-repair",
+  "trade_key": "auto",
+  "city": "Minneapolis",
+  "phone": "(612) 874-0270",
+  "source_site": "",
+  "scraped_ok": false,
+  "real_fields": [],
+  "placeholder_fields": [
+    "about",
+    "headline",
+    "services"
+  ],
+  "url": "https://elitanz.github.io/p/a-plus-auto-repair/",
+  "built_at": "2026-08-15T15:35:50.438806+00:00"
+}

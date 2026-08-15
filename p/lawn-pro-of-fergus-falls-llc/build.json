@@ -1,0 +1,20 @@
+{
+  "name": "Lawn Pro of Fergus Falls, LLC",
+  "slug": "lawn-pro-of-fergus-falls-llc",
+  "trade_key": "landscaping",
+  "city": "Fergus Falls",
+  "phone": "(218) 205-1659",
+  "source_site": "https://lawnprooffergusfalls.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "phone",
+    "services",
+    "title"
+  ],
+  "placeholder_fields": [
+    "headline"
+  ],
+  "url": "https://elitanz.github.io/p/lawn-pro-of-fergus-falls-llc/",
+  "built_at": "2026-08-15T15:35:51.388442+00:00"
+}

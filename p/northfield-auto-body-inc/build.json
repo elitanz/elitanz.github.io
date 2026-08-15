@@ -1,0 +1,20 @@
+{
+  "name": "Northfield Auto Body, Inc.",
+  "slug": "northfield-auto-body-inc",
+  "trade_key": "auto",
+  "city": "Northfield",
+  "phone": "(507) 645-2403",
+  "source_site": "https://northfieldautobody.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "phone",
+    "title"
+  ],
+  "placeholder_fields": [
+    "headline",
+    "services"
+  ],
+  "url": "https://elitanz.github.io/p/northfield-auto-body-inc/",
+  "built_at": "2026-08-15T15:35:52.288687+00:00"
+}

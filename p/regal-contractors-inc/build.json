@@ -1,0 +1,22 @@
+{
+  "name": "Regal Contractors Inc",
+  "slug": "regal-contractors-inc",
+  "trade_key": "builder",
+  "city": "Waite Park",
+  "phone": "(320) 253-1161",
+  "source_site": "http://www.regalcontractors.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "headline",
+    "phone",
+    "services",
+    "title"
+  ],
+  "placeholder_fields": [
+    "services"
+  ],
+  "url": "https://elitanz.github.io/p/regal-contractors-inc/",
+  "built_at": "2026-08-15T15:35:52.374553+00:00"
+}
