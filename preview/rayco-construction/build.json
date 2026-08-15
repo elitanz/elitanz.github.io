@@ -1,0 +1,22 @@
+{
+  "name": "Rayco Construction",
+  "slug": "rayco-construction",
+  "trade_key": "roofer",
+  "city": "Oakdale",
+  "phone": "(612) 781-6092",
+  "source_site": "https://www.raycoconstruction.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "phone",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "headline",
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/rayco-construction/",
+  "built_at": "2026-08-15T15:51:16.062075+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Schneider's Landscape",
+  "slug": "schneider-s-landscape",
+  "trade_key": "landscaping",
+  "city": "Eden Prairie",
+  "phone": "(952) 452-4828",
+  "source_site": "https://schneiderslandscape.com/",
+  "scraped_ok": false,
+  "real_fields": [],
+  "placeholder_fields": [
+    "about",
+    "headline",
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/schneider-s-landscape/",
+  "built_at": "2026-08-15T15:51:12.458126+00:00"
+}

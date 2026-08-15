@@ -1,0 +1,22 @@
+{
+  "name": "Ray N. Welter Heating Company",
+  "slug": "ray-n-welter-heating-company",
+  "trade_key": "hvac",
+  "city": "Minneapolis",
+  "phone": "(612) 825-6867",
+  "source_site": "https://welterheating.com",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "headline",
+    "phone",
+    "services",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [],
+  "url": "https://elitanz.github.io/preview/ray-n-welter-heating-company/",
+  "built_at": "2026-08-15T15:51:16.801682+00:00"
+}

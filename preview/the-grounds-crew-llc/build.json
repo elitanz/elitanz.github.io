@@ -1,0 +1,23 @@
+{
+  "name": "The Grounds Crew LLC",
+  "slug": "the-grounds-crew-llc",
+  "trade_key": "landscaping",
+  "city": "Burnsville",
+  "phone": "(555) 555-5555",
+  "source_site": "https://tgcpropertyservices.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "headline",
+    "phone",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/the-grounds-crew-llc/",
+  "built_at": "2026-08-15T15:51:15.540830+00:00"
+}

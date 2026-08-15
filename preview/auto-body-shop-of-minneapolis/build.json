@@ -1,0 +1,22 @@
+{
+  "name": "Auto Body Shop of Minneapolis",
+  "slug": "auto-body-shop-of-minneapolis",
+  "trade_key": "auto",
+  "city": "Fridley",
+  "phone": "(763) 228-0714",
+  "source_site": "https://www.autobodyshopofminneapolis.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "headline",
+    "phone",
+    "services",
+    "title"
+  ],
+  "placeholder_fields": [
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/auto-body-shop-of-minneapolis/",
+  "built_at": "2026-08-15T15:51:17.148031+00:00"
+}

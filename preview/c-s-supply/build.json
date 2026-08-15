@@ -1,0 +1,23 @@
+{
+  "name": "C&S Supply",
+  "slug": "c-s-supply",
+  "trade_key": "general",
+  "city": "Mankato",
+  "phone": "(507) 387-1171",
+  "source_site": "https://www.candssupply.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "headline",
+    "phone",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/c-s-supply/",
+  "built_at": "2026-08-15T15:51:51.053455+00:00"
+}

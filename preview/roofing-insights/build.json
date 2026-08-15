@@ -1,0 +1,21 @@
+{
+  "name": "Roofing Insights",
+  "slug": "roofing-insights",
+  "trade_key": "roofer",
+  "city": "Brooklyn Park",
+  "phone": "(612) 380-5285",
+  "source_site": "https://roofinginsights.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "description",
+    "headline",
+    "phone",
+    "services",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [],
+  "url": "https://elitanz.github.io/preview/roofing-insights/",
+  "built_at": "2026-08-15T15:51:15.252199+00:00"
+}

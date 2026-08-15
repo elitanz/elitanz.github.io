@@ -1,0 +1,21 @@
+{
+  "name": "Wild Prairie Homes",
+  "slug": "wild-prairie-homes",
+  "trade_key": "roofer",
+  "city": "Waconia",
+  "phone": "(612) 327-9996",
+  "source_site": "https://wildprairiehomes.net",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "description",
+    "headline",
+    "phone",
+    "services",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [],
+  "url": "https://elitanz.github.io/preview/wild-prairie-homes/",
+  "built_at": "2026-08-15T15:51:16.445016+00:00"
+}

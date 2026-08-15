@@ -1,0 +1,21 @@
+{
+  "name": "SightLines",
+  "slug": "sightlines",
+  "trade_key": "builder",
+  "city": "Minneapolis",
+  "phone": "(612) 308-8392",
+  "source_site": "https://www.sightlinesmn.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "headline",
+    "phone",
+    "services",
+    "title"
+  ],
+  "placeholder_fields": [],
+  "url": "https://elitanz.github.io/preview/sightlines/",
+  "built_at": "2026-08-15T15:51:14.968334+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Shelter Construction LLC",
+  "slug": "shelter-construction-llc",
+  "trade_key": "roofer",
+  "city": "Saint Paul",
+  "phone": "(612) 230-8195",
+  "source_site": "https://shelter-usa.com/roofing-st-paul",
+  "scraped_ok": false,
+  "real_fields": [],
+  "placeholder_fields": [
+    "about",
+    "headline",
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/shelter-construction-llc/",
+  "built_at": "2026-08-15T15:51:12.700496+00:00"
+}

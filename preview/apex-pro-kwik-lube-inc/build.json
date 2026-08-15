@@ -1,0 +1,22 @@
+{
+  "name": "Apex Pro Kwik Lube, Inc.",
+  "slug": "apex-pro-kwik-lube-inc",
+  "trade_key": "auto",
+  "city": "Owatonna",
+  "phone": "(507) 451-4739",
+  "source_site": "https://www.apexprokwiklube.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "headline",
+    "phone",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/apex-pro-kwik-lube-inc/",
+  "built_at": "2026-08-15T15:51:50.518098+00:00"
+}

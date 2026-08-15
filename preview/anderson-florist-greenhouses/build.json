@@ -1,0 +1,17 @@
+{
+  "name": "Anderson Florist & Greenhouses",
+  "slug": "anderson-florist-greenhouses",
+  "trade_key": "general",
+  "city": "Alexandria",
+  "phone": "(320) 763-5115",
+  "source_site": "https://www.andersonfloristandgreenhouse.com/",
+  "scraped_ok": false,
+  "real_fields": [],
+  "placeholder_fields": [
+    "about",
+    "headline",
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/anderson-florist-greenhouses/",
+  "built_at": "2026-08-15T15:51:16.850426+00:00"
+}

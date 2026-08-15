@@ -1,0 +1,21 @@
+{
+  "name": "Bloomington Collision Center",
+  "slug": "bloomington-collision-center",
+  "trade_key": "auto",
+  "city": "Bloomington",
+  "phone": "(952) 888-6656",
+  "source_site": "https://www.bloomingtoncollisioncenter.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "phone",
+    "services",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [],
+  "url": "https://elitanz.github.io/preview/bloomington-collision-center/",
+  "built_at": "2026-08-15T15:51:17.365901+00:00"
+}

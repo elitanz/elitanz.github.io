@@ -1,0 +1,20 @@
+{
+  "name": "Western Specialty Contractors",
+  "slug": "western-specialty-contractors",
+  "trade_key": "masonry",
+  "city": "",
+  "phone": "(612) 781-7100",
+  "source_site": "https://westernspecialtycontractors.com/minneapolis-branch/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "headline",
+    "phone",
+    "services",
+    "title"
+  ],
+  "placeholder_fields": [],
+  "url": "https://elitanz.github.io/preview/western-specialty-contractors/",
+  "built_at": "2026-08-15T15:51:15.058309+00:00"
+}

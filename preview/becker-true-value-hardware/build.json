@@ -1,0 +1,20 @@
+{
+  "name": "Becker True Value Hardware",
+  "slug": "becker-true-value-hardware",
+  "trade_key": "general",
+  "city": "Becker",
+  "phone": "(763) 261-4464",
+  "source_site": "http://twww.ruevalue.com/becker",
+  "scraped_ok": true,
+  "real_fields": [
+    "description",
+    "headline",
+    "title"
+  ],
+  "placeholder_fields": [
+    "about",
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/becker-true-value-hardware/",
+  "built_at": "2026-08-15T15:51:17.005745+00:00"
+}
