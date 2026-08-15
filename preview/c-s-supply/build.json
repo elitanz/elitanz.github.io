@@ -11,13 +11,15 @@
     "address",
     "description",
     "headline",
+    "hours",
     "phone",
     "socials",
+    "testimonials",
     "title"
   ],
   "placeholder_fields": [
     "services"
   ],
   "url": "https://elitanz.github.io/preview/c-s-supply/",
-  "built_at": "2026-08-15T16:14:53.350869+00:00"
+  "built_at": "2026-08-15T22:01:43.256673+00:00"
 }

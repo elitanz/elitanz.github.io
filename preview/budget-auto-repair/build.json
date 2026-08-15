@@ -3,21 +3,20 @@
   "slug": "budget-auto-repair",
   "trade_key": "auto",
   "city": "",
-  "phone": "(612) 404-4513",
+  "phone": "(701) 639-5206",
   "source_site": "https://www.budgetautorepairmn.com/",
   "scraped_ok": true,
   "real_fields": [
-    "about",
-    "address",
     "description",
     "phone",
-    "services",
     "socials",
     "title"
   ],
   "placeholder_fields": [
+    "about",
+    "headline",
     "services"
   ],
   "url": "https://elitanz.github.io/preview/budget-auto-repair/",
-  "built_at": "2026-08-15T16:14:53.114462+00:00"
+  "built_at": "2026-08-15T22:01:43.000689+00:00"
 }
