@@ -1,9 +1,9 @@
 {
   "name": "United Refirgeration Inc",
   "slug": "united-refirgeration-inc",
-  "trade_key": "general",
-  "city": "",
-  "phone": "",
+  "trade_key": "hvac",
+  "city": "Duluth",
+  "phone": "(218) 727-5046",
   "source_site": "",
   "scraped_ok": false,
   "real_fields": [],
@@ -13,5 +13,5 @@
     "services"
   ],
   "url": "https://elitanz.github.io/preview/united-refirgeration-inc/",
-  "built_at": "2026-08-15T22:05:30.702258+00:00"
+  "built_at": "2026-08-15T22:48:09.948854+00:00"
 }

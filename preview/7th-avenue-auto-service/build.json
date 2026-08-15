@@ -1,9 +1,9 @@
 {
   "name": "7th Avenue Auto Service",
   "slug": "7th-avenue-auto-service",
-  "trade_key": "general",
-  "city": "",
-  "phone": "",
+  "trade_key": "auto",
+  "city": "Two Harbors",
+  "phone": "(218) 834-4408",
   "source_site": "",
   "scraped_ok": false,
   "real_fields": [],
@@ -13,5 +13,5 @@
     "services"
   ],
   "url": "https://elitanz.github.io/preview/7th-avenue-auto-service/",
-  "built_at": "2026-08-15T22:05:29.123304+00:00"
+  "built_at": "2026-08-15T22:47:00.404210+00:00"
 }

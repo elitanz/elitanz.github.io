@@ -1,9 +1,9 @@
 {
   "name": "Shinin' Brightly Electric LLC",
   "slug": "shinin-brightly-electric-llc",
-  "trade_key": "general",
-  "city": "",
-  "phone": "",
+  "trade_key": "electrician",
+  "city": "White Bear Lake",
+  "phone": "(612) 730-4120",
   "source_site": "",
   "scraped_ok": false,
   "real_fields": [],
@@ -13,5 +13,5 @@
     "services"
   ],
   "url": "https://elitanz.github.io/preview/shinin-brightly-electric-llc/",
-  "built_at": "2026-08-15T22:05:30.697793+00:00"
+  "built_at": "2026-08-15T22:48:00.171992+00:00"
 }
