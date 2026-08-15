@@ -1,0 +1,22 @@
+{
+  "name": "Eyota Mini Storage",
+  "slug": "eyota-mini-storage",
+  "trade_key": "general",
+  "city": "Eyota",
+  "phone": "(507) 421-5394",
+  "source_site": "https://www.eyotaministorage.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "headline",
+    "phone",
+    "services",
+    "title"
+  ],
+  "placeholder_fields": [
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/eyota-mini-storage/",
+  "built_at": "2026-08-15T16:03:59.920055+00:00"
+}

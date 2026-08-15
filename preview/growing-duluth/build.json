@@ -1,0 +1,20 @@
+{
+  "name": "Growing Duluth",
+  "slug": "growing-duluth",
+  "trade_key": "general",
+  "city": "Duluth",
+  "phone": "(218) 600-9187",
+  "source_site": "https://growingduluth.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "description",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "about",
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/growing-duluth/",
+  "built_at": "2026-08-15T16:03:42.723684+00:00"
+}

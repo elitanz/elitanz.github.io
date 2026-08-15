@@ -1,0 +1,22 @@
+{
+  "name": "Dan's Service Center",
+  "slug": "dan-s-service-center",
+  "trade_key": "auto",
+  "city": "",
+  "phone": "(701) 282-7800",
+  "source_site": "https://www.dansservicecenters.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "headline",
+    "phone",
+    "services",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [],
+  "url": "https://elitanz.github.io/preview/dan-s-service-center/",
+  "built_at": "2026-08-15T16:03:59.008095+00:00"
+}

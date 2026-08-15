@@ -1,0 +1,21 @@
+{
+  "name": "Costa Oil",
+  "slug": "costa-oil",
+  "trade_key": "auto",
+  "city": "Lino Lakes",
+  "phone": "(651) 683-2873",
+  "source_site": "https://linolakes.costaoils.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "headline",
+    "phone",
+    "services",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [],
+  "url": "https://elitanz.github.io/preview/costa-oil/",
+  "built_at": "2026-08-15T16:03:58.904387+00:00"
+}

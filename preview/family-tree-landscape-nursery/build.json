@@ -1,0 +1,24 @@
+{
+  "name": "Family Tree Landscape Nursery",
+  "slug": "family-tree-landscape-nursery",
+  "trade_key": "general",
+  "city": "Rochester",
+  "phone": "(507) 289-0557",
+  "source_site": "https://familytreensy.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "headline",
+    "phone",
+    "services",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/family-tree-landscape-nursery/",
+  "built_at": "2026-08-15T16:04:00.774977+00:00"
+}

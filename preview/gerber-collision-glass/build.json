@@ -1,0 +1,22 @@
+{
+  "name": "Gerber Collision & Glass",
+  "slug": "gerber-collision-glass",
+  "trade_key": "auto",
+  "city": "Golden Valley",
+  "phone": "(763) 595-0006",
+  "source_site": "https://www.gerbercollision.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "description",
+    "headline",
+    "services",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/gerber-collision-glass/",
+  "built_at": "2026-08-15T16:03:59.224906+00:00"
+}

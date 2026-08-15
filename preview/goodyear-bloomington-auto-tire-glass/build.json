@@ -1,0 +1,22 @@
+{
+  "name": "Goodyear Bloomington Auto, Tire & Glass",
+  "slug": "goodyear-bloomington-auto-tire-glass",
+  "trade_key": "auto",
+  "city": "Bloomington",
+  "phone": "(952) 224-0378",
+  "source_site": "https://lamettrysautotech.com/locations/bl-auto-tire/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "headline",
+    "phone",
+    "services",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [],
+  "url": "https://elitanz.github.io/preview/goodyear-bloomington-auto-tire-glass/",
+  "built_at": "2026-08-15T16:04:00.217219+00:00"
+}

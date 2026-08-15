@@ -1,0 +1,22 @@
+{
+  "name": "Five Star Auto Service",
+  "slug": "five-star-auto-service",
+  "trade_key": "auto",
+  "city": "",
+  "phone": "(651) 583-5155",
+  "source_site": "https://www.fivestarautoservicemn.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "headline",
+    "phone",
+    "services",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [],
+  "url": "https://elitanz.github.io/preview/five-star-auto-service/",
+  "built_at": "2026-08-15T16:03:59.509391+00:00"
+}

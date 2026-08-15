@@ -1,0 +1,21 @@
+{
+  "name": "Fleet Supply",
+  "slug": "fleet-supply",
+  "trade_key": "general",
+  "city": "Glencoe",
+  "phone": "(320) 634-5209",
+  "source_site": "https://www.fleetsupplymn.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "description",
+    "headline",
+    "services",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "about"
+  ],
+  "url": "https://elitanz.github.io/preview/fleet-supply/",
+  "built_at": "2026-08-15T16:03:59.706035+00:00"
+}

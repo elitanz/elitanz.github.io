@@ -1,0 +1,21 @@
+{
+  "name": "Dynotech Automotive",
+  "slug": "dynotech-automotive",
+  "trade_key": "auto",
+  "city": "Saint Paul",
+  "phone": "(651) 237-2367",
+  "source_site": "https://www.dynotechauto.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "description",
+    "headline",
+    "phone",
+    "services",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [],
+  "url": "https://elitanz.github.io/preview/dynotech-automotive/",
+  "built_at": "2026-08-15T16:04:00.477554+00:00"
+}

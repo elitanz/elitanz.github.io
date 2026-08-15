@@ -1,0 +1,20 @@
+{
+  "name": "Glencoe Collision Center",
+  "slug": "glencoe-collision-center",
+  "trade_key": "auto",
+  "city": "Glencoe",
+  "phone": "(320) 864-3543",
+  "source_site": "https://www.facebook.com/glencoecollisioncenter/",
+  "scraped_ok": true,
+  "real_fields": [
+    "description",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "about",
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/glencoe-collision-center/",
+  "built_at": "2026-08-15T16:03:41.855400+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Emergency Apparatus Maintenance",
+  "slug": "emergency-apparatus-maintenance",
+  "trade_key": "auto",
+  "city": "Lino Lakes",
+  "phone": "(651) 786-4463",
+  "source_site": "https://www.eamservice.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "description",
+    "phone",
+    "title"
+  ],
+  "placeholder_fields": [
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/emergency-apparatus-maintenance/",
+  "built_at": "2026-08-15T16:03:42.645294+00:00"
+}

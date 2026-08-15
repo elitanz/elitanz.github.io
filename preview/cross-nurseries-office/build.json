@@ -1,0 +1,20 @@
+{
+  "name": "Cross Nurseries Office",
+  "slug": "cross-nurseries-office",
+  "trade_key": "general",
+  "city": "Lakeville",
+  "phone": "(952) 469-2414",
+  "source_site": "https://crossnurseries.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "headline",
+    "phone"
+  ],
+  "placeholder_fields": [
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/cross-nurseries-office/",
+  "built_at": "2026-08-15T16:03:42.260554+00:00"
+}
