@@ -3,26 +3,26 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Quiet Nook Cabins — Craftsmanship you can run your hand along | Gonvick, MN</title>
-<meta name="description" content="Quiet Nook Cabins — craftsmanship you can run your hand along, Gonvick, Minnesota. Call (218) 487-5235.">
-<meta name="theme-color" content="#14100b">
+<title>Quiet Nook Cabins — Local work, done properly</title>
+<meta name="description" content="Quiet Nook Cabins — local work, done properly in Minnesota. Call .">
+<meta name="theme-color" content="#0c0e10">
 <link rel="canonical" href="https://elitanz.github.io/preview/quiet-nook-cabins/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Quiet Nook Cabins — Craftsmanship you can run your hand along | Gonvick, MN">
-<meta property="og:description" content="Quiet Nook Cabins — craftsmanship you can run your hand along, Gonvick, Minnesota. Call (218) 487-5235.">
-<meta property="og:image" content="https://images.unsplash.com/photo-1687422810663-c316494f725a&amp;w=1200&amp;h=630&amp;fit=crop">
+<meta property="og:title" content="Quiet Nook Cabins — Local work, done properly">
+<meta property="og:description" content="Quiet Nook Cabins — local work, done properly in Minnesota. Call .">
+<meta property="og:image" content="https://images.unsplash.com/photo-1632862378103-8248dccb7e3d&amp;w=1200&amp;h=630&amp;fit=crop">
 <meta property="og:url" content="https://elitanz.github.io/preview/quiet-nook-cabins/">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://images.unsplash.com">
-<link rel="preload" as="image" href="https://images.unsplash.com/photo-1687422810663-c316494f725a?auto=format&fit=crop&w=2000&q=80" fetchpriority="high">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600;700&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "LocalBusiness", "name": "Quiet Nook Cabins", "telephone": "+12184875235", "url": "https://elitanz.github.io/preview/quiet-nook-cabins/", "description": "Quiet Nook Cabins — craftsmanship you can run your hand along, Gonvick, Minnesota. Call (218) 487-5235.", "areaServed": "Gonvick, Minnesota", "address": {"@type": "PostalAddress", "addressRegion": "MN", "addressCountry": "US", "addressLocality": "Gonvick"}}</script>
+<link rel="preload" as="image" href="https://images.unsplash.com/photo-1632862378103-8248dccb7e3d?auto=format&fit=crop&w=2000&q=80" fetchpriority="high">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;600;700&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "LocalBusiness", "name": "Quiet Nook Cabins", "telephone": "", "url": "https://elitanz.github.io/preview/quiet-nook-cabins/", "description": "Quiet Nook Cabins — local work, done properly in Minnesota. Call .", "areaServed": "Minnesota", "address": {"@type": "PostalAddress", "addressRegion": "MN", "addressCountry": "US"}}</script>
 <style>
 :root{
-  --ink:#1d1710; --paper:#faf6ef; --accent:#a2662a; --deep:#14100b; --muted:#77685a;
-  --display:'Fraunces',Georgia,serif; --body:'Inter',system-ui,-apple-system,sans-serif;
+  --ink:#131518; --paper:#f5f6f7; --accent:#2f6f8f; --deep:#0c0e10; --muted:#697079;
+  --display:'Bricolage Grotesque',Georgia,serif; --body:'Inter',system-ui,-apple-system,sans-serif;
   --pad:clamp(20px,5vw,72px); --radius:20px;
 }
 *{box-sizing:border-box;margin:0;padding:0}
@@ -38,7 +38,7 @@ h1,h2,h3{font-family:var(--display);line-height:1.05;letter-spacing:-.02em;font-
   color:var(--accent);font-weight:600;margin-bottom:14px}
 
 /* ---------- nav: absent on the hero, solid once you leave it ---------- */
-.nav{position:fixed;inset:0 0 auto 0;z-index:60;display:flex;align-items:center;
+.nav{position:fixed;top:var(--ownerH,0px);left:0;right:0;z-index:60;display:flex;align-items:center;
   justify-content:space-between;padding:14px var(--pad);
   background:color-mix(in srgb,var(--deep) 92%, transparent);
   backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
@@ -168,6 +168,24 @@ footer a{color:rgba(255,255,255,.82)}
 .disclosure{margin-top:20px;font-size:.76rem;line-height:1.6;color:rgba(255,255,255,.44);
   max-width:70ch}
 
+/* ---------- owner bar: the only part of the page addressed to the OWNER ----------
+   The rest of the site is written for their customers. Without this, an owner who
+   clicks the link from the email has nowhere to say yes. Deliberately set apart from
+   the design so it never reads as part of their site. */
+.owner{position:fixed;inset:0 0 auto 0;z-index:80;display:flex;flex-wrap:wrap;gap:10px 18px;
+  align-items:center;justify-content:center;padding:10px 16px;
+  background:#111;color:#fff;font-size:.86rem;line-height:1.4;text-align:center;
+  border-bottom:1px solid rgba(255,255,255,.16)}
+.owner b{font-weight:600}
+.owner .price{color:#ffd166}
+.owner a{color:#111;background:#fff;text-decoration:none;font-weight:600;
+  padding:8px 16px;border-radius:999px;white-space:nowrap;transition:transform .2s}
+.owner a:hover{transform:translateY(-1px)}
+.owner .ghost{background:transparent;color:rgba(255,255,255,.66);
+  text-decoration:underline;padding:8px 4px;font-weight:400}
+body{padding-top:var(--ownerH,0px)}
+@media(max-width:640px){.owner{font-size:.78rem;padding:8px 12px;gap:8px 12px}}
+
 /* ---------- mobile call bar: never over the hero ---------- */
 .callbar{position:fixed;inset:auto 0 0 0;z-index:70;display:none;gap:10px;padding:11px 14px;
   background:color-mix(in srgb,var(--deep) 95%,transparent);
@@ -208,27 +226,35 @@ footer a{color:rgba(255,255,255,.82)}
 </head>
 <body>
 
+<div class="owner">
+  <span><b>Quiet Nook Cabins</b> — this is a demo site built for you by Tanz Digital.
+    Yours for <b class="price">$500</b> one time.</span>
+  <a href="tel:+16124038376">Call Eli (612) 403-8376</a>
+  <a href="sms:+16124038376&amp;body=Yes%20-%20I%20want%20the%20site%20for%20Quiet%20Nook%20Cabins">Text “yes”</a>
+  <a class="ghost" href="tel:+16124038376">Take it down</a>
+</div>
+
 <nav class="nav" id="nav">
   <a class="brand" href="#top">Quiet Nook Cabins</a>
   <div class="navlinks">
     <a href="#about">About</a><a href="#services">Services</a><a href="#work">Work</a><a href="#contact">Contact</a>
-    <a class="navcall" href="tel:+12184875235">Call (218) 487-5235</a>
+    <a class="navcall" href="tel:">Call us</a>
   </div>
   <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
 </nav>
 <div class="overlay" id="overlay">
   <a href="#about">About</a><a href="#services">Services</a><a href="#work">Work</a><a href="#contact">Contact</a>
-  <a class="navcall" href="tel:+12184875235">Call (218) 487-5235</a>
+  <a class="navcall" href="tel:">Call us</a>
 </div>
 
 <header class="hero" id="top">
   <div class="hero-media" id="heroMedia">
-    <img src="https://images.unsplash.com/photo-1687422810663-c316494f725a?auto=format&fit=crop&w=2000&q=80" alt="A carpenter smiling while shaping a piece of wood — Quiet Nook Cabins" fetchpriority="high" width="2000" height="1333">
+    <img src="https://images.unsplash.com/photo-1632862378103-8248dccb7e3d?auto=format&fit=crop&w=2000&q=80" alt="A working crew on a project — Quiet Nook Cabins" fetchpriority="high" width="2000" height="1333">
   </div>
   <div class="hero-copy" id="heroCopy"><div class="inner">
     <h1 class="">Quiet Nook Cabins</h1>
-    <p>Craftsmanship you can run your hand along</p>
-    <a class="cta" href="tel:+12184875235">Call (218) 487-5235</a>
+    <p>Local work, done properly</p>
+    <a class="cta" href="tel:">Call us</a>
   </div></div>
 </header>
 
@@ -236,11 +262,11 @@ footer a{color:rgba(255,255,255,.82)}
 
 <section id="about"><div class="wrap split">
   <div class="rv">
-    <div class="eyebrow">Gonvick, Minnesota</div>
-    <h2 class="lead">Craftsmanship you can run your hand along</h2>
-    <p class="body-copy">Quiet Nook Cabins is a local carpenter business serving Gonvick and the surrounding area. Call and speak to someone who does the work, get a straight answer on price and timing, and have the job finished properly.</p>
+    <div class="eyebrow">Minnesota</div>
+    <h2 class="lead">Local work, done properly</h2>
+    <p class="body-copy">Quiet Nook Cabins is a local trade business in Minnesota. Call and speak to someone who does the work, get a straight answer on price and timing, and have the job finished properly.</p>
   </div>
-  <div class="figure rv"><img src="https://images.unsplash.com/photo-1561297331-a9c00b9c2c44?auto=format&fit=crop&w=900&h=700&q=78" alt="Sanding a timber surface smooth" loading="lazy" data-par="0.06"></div>
+  <div class="figure rv"><img src="https://images.unsplash.com/photo-1530046614490-89e6f776b83b?auto=format&fit=crop&w=900&h=700&q=78" alt="An organised tool chest" loading="lazy" data-par="0.06"></div>
 </div></section>
 
 <section id="services"><div class="wrap">
@@ -248,7 +274,7 @@ footer a{color:rgba(255,255,255,.82)}
     <div class="eyebrow">What we do</div>
     <h2 class="lead">What we take care of</h2>
   </div>
-  <div class="grid"><div class="card rv"><div class="rule"></div><h3>Custom woodwork</h3><p>Built-ins, shelving and one-off pieces.</p></div><div class="card rv"><div class="rule"></div><h3>Trim &amp; finish carpentry</h3><p>Doors, casing, baseboard and detail work.</p></div><div class="card rv"><div class="rule"></div><h3>Decks &amp; exterior</h3><p>Deck building, repair and rebuilds.</p></div><div class="card rv"><div class="rule"></div><h3>Repairs</h3><p>Rot, structural and general carpentry fixes.</p></div></div>
+  <div class="grid"><div class="card rv"><div class="rule"></div><h3>Free estimates</h3><p>A clear, written quote before any work starts.</p></div><div class="card rv"><div class="rule"></div><h3>Quality workmanship</h3><p>Work done properly the first time.</p></div><div class="card rv"><div class="rule"></div><h3>Local &amp; responsive</h3><p>Someone answers, and shows up when they said.</p></div><div class="card rv"><div class="rule"></div><h3>Fair pricing</h3><p>The price quoted is the price paid.</p></div></div>
 </div></section>
 
 </div><!-- /lift -->
@@ -256,10 +282,10 @@ footer a{color:rgba(255,255,255,.82)}
 <section class="pin" id="pin">
   <div class="pin-stage">
     <div class="pin-media" id="pinMedia">
-      <img src="https://images.unsplash.com/photo-1497219055242-93359eeed651?auto=format&fit=crop&w=2000&q=80" alt="Hand-chiselling a joint in wood" loading="lazy">
+      <img src="https://images.unsplash.com/photo-1616179283726-e96f7aa16a56?auto=format&fit=crop&w=2000&q=80" alt="A tradesman working from a ladder" loading="lazy">
       <div class="pin-scrim" id="pinScrim"></div>
     </div>
-    <div class="pin-caps" id="pinCaps" style="height:1px"><div class="pin-cap on"><h2>You call, we answer</h2><p>A real person in Gonvick, not a call centre and not a form that goes nowhere.</p></div><div class="pin-cap"><h2>We quote it straight</h2><p>You get the price and the scope in writing before anyone picks up a tool.</p></div><div class="pin-cap"><h2>The job gets finished</h2><p>Done properly, cleaned up, and standing behind it when we leave.</p></div></div>
+    <div class="pin-caps" id="pinCaps" style="height:1px"><div class="pin-cap on"><h2>You call, we answer</h2><p>A real person here, not a call centre and not a form that goes nowhere.</p></div><div class="pin-cap"><h2>We quote it straight</h2><p>You get the price and the scope in writing before anyone picks up a tool.</p></div><div class="pin-cap"><h2>The job gets finished</h2><p>Done properly, cleaned up, and standing behind it when we leave.</p></div></div>
     <div class="pin-progress"><i id="pinBar"></i></div>
   </div>
 </section>
@@ -269,7 +295,7 @@ footer a{color:rgba(255,255,255,.82)}
     <div class="eyebrow">The work</div>
     <h2 class="lead">The kind of work we do</h2>
   </div>
-  <div class="gal"><div class="gal-col"><figure><img src="https://images.unsplash.com/photo-1631396326646-c06a935ff3a6?auto=format&fit=crop&w=900&h=700&q=78" alt="A carpenter building a chair in a workshop" loading="lazy" width="900" height="700"></figure><figure><img src="https://images.unsplash.com/photo-1659930087003-2d64e33181f7?auto=format&fit=crop&w=900&h=700&q=78" alt="A carpenter cutting a board to length" loading="lazy" width="900" height="700"></figure></div><div class="gal-col"><figure><img src="https://images.unsplash.com/photo-1608613304899-ea8098577e38?auto=format&fit=crop&w=900&h=700&q=78" alt="A carpenter using a cordless power tool" loading="lazy" width="900" height="700"></figure><figure><img src="https://images.unsplash.com/photo-1659930087003-2d64e33181f7?auto=format&fit=crop&w=900&h=700&q=78" alt="A carpenter cutting a board to length" loading="lazy" width="900" height="700"></figure></div><div class="gal-col"><figure><img src="https://images.unsplash.com/photo-1497218770144-3fea6dbc33fe?auto=format&fit=crop&w=900&h=700&q=78" alt="Hand tools laid out on a workbench" loading="lazy" width="900" height="700"></figure></div></div>
+  <div class="gal"><div class="gal-col"><figure><img src="https://images.unsplash.com/photo-1552155235-a68a6c02d512?auto=format&fit=crop&w=900&h=700&q=78" alt="A finished, well-built interior" loading="lazy" width="900" height="700"></figure><figure><img src="https://images.unsplash.com/photo-1497218770144-3fea6dbc33fe?auto=format&fit=crop&w=900&h=700&q=78" alt="Hand tools laid out on a workbench" loading="lazy" width="900" height="700"></figure></div><div class="gal-col"><figure><img src="https://images.unsplash.com/photo-1768321902331-7d21aa3faf5a?auto=format&fit=crop&w=900&h=700&q=78" alt="Framing work during a build" loading="lazy" width="900" height="700"></figure><figure><img src="https://images.unsplash.com/photo-1497218770144-3fea6dbc33fe?auto=format&fit=crop&w=900&h=700&q=78" alt="Hand tools laid out on a workbench" loading="lazy" width="900" height="700"></figure></div><div class="gal-col"><figure><img src="https://images.unsplash.com/photo-1656733911001-16912b79d2bf?auto=format&fit=crop&w=900&h=700&q=78" alt="A completed room after renovation" loading="lazy" width="900" height="700"></figure></div></div>
 </div></section>
 
 <section id="contact" style="background:color-mix(in srgb,var(--ink) 4%,var(--paper))">
@@ -278,32 +304,42 @@ footer a{color:rgba(255,255,255,.82)}
       <div class="eyebrow">Get in touch</div>
       <h2 class="lead">Talk to a real person</h2>
     </div>
-    <div class="facts rv"><div class="fact"><div class="k">Phone</div><div class="v"><a href="tel:+12184875235">(218) 487-5235</a></div></div><div class="fact"><div class="k">Serving</div><div class="v">Gonvick, Minnesota</div></div></div>
-    <div class="map rv"><iframe loading="lazy" title="Map to Quiet Nook Cabins" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Quiet+Nook+Cabins+Gonvick+MN&output=embed"></iframe></div>
+    <div class="facts rv"><div class="fact"><div class="k">Phone</div><div class="v"><a href="tel:"></a></div></div></div>
+    
   </div>
 </section>
 
 <section class="close"><div class="wrap rv">
   <h2>Need it sorted?</h2>
-  <p>Call (218) 487-5235 and get a straight answer today.</p>
-  <a class="cta" href="tel:+12184875235">Call (218) 487-5235</a>
+  <p>Give us a call and get a straight answer today.</p>
+  <a class="cta" href="tel:">Call us</a>
 </div></section>
 
 <footer><div class="wrap">
-  <div>&copy; 2026 Quiet Nook Cabins · Gonvick, Minnesota</div>
-  <div><a href="tel:+12184875235">(218) 487-5235</a></div>
+  <div>&copy; 2026 Quiet Nook Cabins</div>
+  <div><a href="tel:">us</a></div>
 </div>
 <div class="wrap" style="border:0;padding-top:0"><p class="disclosure">This page is an unsolicited design preview of a website for Quiet Nook Cabins, built by Tanz Digital to show what a new site could look like. It is not an official website and Quiet Nook Cabins has no affiliation with it. Business name, phone number and any address shown are taken from public listings. Photographs are stock images, not photos of their work. If you are the owner and would like this taken down, call (612) 403-8376 and it will be removed the same day.</p></div>
 </footer>
 
 <div class="callbar" id="callbar">
-  <a class="p" href="tel:+12184875235">Call now</a>
-  <a class="s" href="https://www.google.com/maps/search/?api=1&amp;query=Quiet+Nook+Cabins+Gonvick+MN" target="_blank" rel="noopener">Directions</a>
+  <a class="p" href="tel:">Call now</a>
+  <a class="s" href="https://www.google.com/maps/search/?api=1&amp;query=Quiet+Nook+Cabins+MN" target="_blank" rel="noopener">Directions</a>
 </div>
 
 <script>
 (function(){
   var rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // The owner bar wraps to two lines on a phone, so its height is measured rather
+  // than assumed; the nav and the page top both key off the real value.
+  var ownerBar=document.querySelector('.owner');
+  function sizeOwner(){
+    if(!ownerBar) return;
+    document.documentElement.style.setProperty('--ownerH', ownerBar.offsetHeight+'px');
+  }
+  sizeOwner();
+  window.addEventListener('resize', sizeOwner, {passive:true});
+  if(document.fonts && document.fonts.ready) document.fonts.ready.then(sizeOwner);
   var nav=document.getElementById('nav'), bar=document.getElementById('callbar'),
       hero=document.getElementById('top'), heroMedia=document.getElementById('heroMedia'),
       heroCopy=document.getElementById('heroCopy'), burger=document.getElementById('burger'),

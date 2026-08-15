@@ -1,10 +1,10 @@
 {
   "name": "Dwight Carlson Plumbing & Excavating",
   "slug": "dwight-carlson-plumbing-excavating",
-  "trade_key": "excavating",
-  "city": "Park Rapids",
-  "phone": "(218) 732-8254",
-  "source_site": "http://www.dwightcarlson.com/",
+  "trade_key": "general",
+  "city": "",
+  "phone": "",
+  "source_site": "",
   "scraped_ok": false,
   "real_fields": [],
   "placeholder_fields": [
@@ -13,5 +13,5 @@
     "services"
   ],
   "url": "https://elitanz.github.io/preview/dwight-carlson-plumbing-excavating/",
-  "built_at": "2026-08-15T15:42:20.411918+00:00"
+  "built_at": "2026-08-15T16:14:04.999459+00:00"
 }

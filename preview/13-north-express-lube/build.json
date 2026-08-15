@@ -1,9 +1,9 @@
 {
   "name": "13 North Express Lube",
   "slug": "13-north-express-lube",
-  "trade_key": "auto",
-  "city": "Waseca",
-  "phone": "(507) 833-7667",
+  "trade_key": "general",
+  "city": "",
+  "phone": "",
   "source_site": "",
   "scraped_ok": false,
   "real_fields": [],
@@ -13,5 +13,5 @@
     "services"
   ],
   "url": "https://elitanz.github.io/preview/13-north-express-lube/",
-  "built_at": "2026-08-15T15:42:20.385948+00:00"
+  "built_at": "2026-08-15T16:14:04.919843+00:00"
 }

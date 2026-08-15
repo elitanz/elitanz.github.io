@@ -1,9 +1,9 @@
 {
   "name": "A to Z Repair & Mobility",
   "slug": "a-to-z-repair-mobility",
-  "trade_key": "auto",
-  "city": "Rochester",
-  "phone": "(507) 258-6277",
+  "trade_key": "general",
+  "city": "",
+  "phone": "",
   "source_site": "",
   "scraped_ok": false,
   "real_fields": [],
@@ -13,5 +13,5 @@
     "services"
   ],
   "url": "https://elitanz.github.io/preview/a-to-z-repair-mobility/",
-  "built_at": "2026-08-15T15:42:20.393553+00:00"
+  "built_at": "2026-08-15T16:14:04.960612+00:00"
 }
