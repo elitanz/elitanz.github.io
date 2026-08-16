@@ -100,7 +100,7 @@ h1,h2,h3{font-family:var(--display);line-height:1.02;letter-spacing:var(--track)
 .hero .cta:hover{transform:translateY(-2px);filter:brightness(1.08)}
 
 /* ---------- hero variant: split panel ---------- */
-.hero--split{display:grid;grid-template-columns:minmax(0,46%) minmax(0,54%);
+.hero--split{display:grid;grid-template-columns:minmax(0,43%) minmax(0,57%);
   background:var(--paper);height:min(100svh,740px);min-height:480px;
   overflow:hidden}
 .hero--split .hero-panel{display:flex;flex-direction:column;justify-content:space-between;
@@ -116,12 +116,16 @@ h1,h2,h3{font-family:var(--display);line-height:1.02;letter-spacing:var(--track)
 .hero-rail--end span{white-space:nowrap}
 .hero-panel-mid{display:flex;flex-direction:column;justify-content:center;flex:1;
   padding:clamp(14px,3vh,28px) 0}
-.hero--split .hero-panel-in{max-width:30ch}
+.hero--split .hero-panel-in{max-width:none}
 /* Sized off the viewport HEIGHT as well as width: a three-line business name in a
    short window is what pushed the call button off-screen. */
-.hero--split h1{font-size:clamp(2rem,3.6vw,3.4rem);max-width:none;text-shadow:none}
-.hero--split .hero-panel-in p{opacity:1;color:var(--muted);margin-top:12px;
-  font-size:1rem;max-width:30ch}
+.hero--split h1,
+.hero--split h1.long{font-size:clamp(2.4rem,5.6vw,4.9rem);max-width:none;
+  text-shadow:none;line-height:.94}
+.hero--split h1.xlong{font-size:clamp(2rem,4.6vw,4rem);max-width:none;
+  text-shadow:none;line-height:.96}
+.hero--split .hero-panel-in p{opacity:1;color:var(--muted);margin-top:14px;
+  font-size:1.02rem;max-width:32ch}
 .hero--split .eyebrow{margin-bottom:14px}
 .hero--split .hero-media{position:relative;inset:auto;height:100%;overflow:hidden}
 .hero--split .hero-media::after{background:linear-gradient(90deg,
