@@ -1,0 +1,24 @@
+{
+  "name": "Murphys Service Center",
+  "slug": "murphys-service-center",
+  "trade_key": "auto",
+  "city": "St. Anthony",
+  "phone": "(612) 781-4489",
+  "source_site": "https://www.murphysservicecenter.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "address",
+    "description",
+    "headline",
+    "phone",
+    "services",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "about",
+    "headline"
+  ],
+  "url": "https://elitanz.github.io/preview/murphys-service-center/",
+  "built_at": "2026-08-17T13:17:32.735810+00:00"
+}

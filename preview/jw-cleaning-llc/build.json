@@ -1,0 +1,25 @@
+{
+  "name": "JW CLEANING LLC",
+  "slug": "jw-cleaning-llc",
+  "trade_key": "cleaning",
+  "city": "Anoka",
+  "phone": "(320) 287-1040",
+  "source_site": "https://jw2clean.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "headline",
+    "phone",
+    "services",
+    "socials",
+    "testimonials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/jw-cleaning-llc/",
+  "built_at": "2026-08-17T13:17:42.788226+00:00"
+}

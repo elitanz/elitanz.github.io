@@ -1,0 +1,23 @@
+{
+  "name": "Lakeville Collision Center",
+  "slug": "lakeville-collision-center",
+  "trade_key": "auto",
+  "city": "Lakeville",
+  "phone": "(952) 469-2246",
+  "source_site": "https://www.lakevillecollision.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "phone",
+    "socials",
+    "testimonials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/lakeville-collision-center/",
+  "built_at": "2026-08-17T13:17:33.368012+00:00"
+}

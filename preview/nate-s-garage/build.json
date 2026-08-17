@@ -1,0 +1,25 @@
+{
+  "name": "Nate's Garage",
+  "slug": "nate-s-garage",
+  "trade_key": "auto",
+  "city": "Cannon Falls",
+  "phone": "(507) 263-2783",
+  "source_site": "https://www.natesgarages.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "description",
+    "headline",
+    "phone",
+    "services",
+    "since",
+    "socials",
+    "testimonials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/nate-s-garage/",
+  "built_at": "2026-08-17T13:17:44.405456+00:00"
+}

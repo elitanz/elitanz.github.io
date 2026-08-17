@@ -1,0 +1,23 @@
+{
+  "name": "Lloyd's Automotive",
+  "slug": "lloyd-s-automotive",
+  "trade_key": "auto",
+  "city": "Saint Paul",
+  "phone": "(651) 228-1316",
+  "source_site": "https://lloydsautomotive.net/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "headline",
+    "phone",
+    "services",
+    "socials",
+    "testimonials",
+    "title"
+  ],
+  "placeholder_fields": [],
+  "url": "https://elitanz.github.io/preview/lloyd-s-automotive/",
+  "built_at": "2026-08-17T13:17:44.061941+00:00"
+}

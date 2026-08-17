@@ -1,0 +1,23 @@
+{
+  "name": "Mainstreet Automotive",
+  "slug": "mainstreet-automotive",
+  "trade_key": "auto",
+  "city": "Lakeville",
+  "phone": "(952) 469-2110",
+  "source_site": "https://www.mainstreetautomotive.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "headline",
+    "phone",
+    "services",
+    "title"
+  ],
+  "placeholder_fields": [
+    "headline"
+  ],
+  "url": "https://elitanz.github.io/preview/mainstreet-automotive/",
+  "built_at": "2026-08-17T13:17:44.169623+00:00"
+}

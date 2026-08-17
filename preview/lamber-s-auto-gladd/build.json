@@ -1,0 +1,24 @@
+{
+  "name": "Lamber's Auto Gladd",
+  "slug": "lamber-s-auto-gladd",
+  "trade_key": "auto",
+  "city": "Cloquet",
+  "phone": "(218) 878-1000",
+  "source_site": "https://www.lamberts-autoglass.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "phone",
+    "since",
+    "socials",
+    "testimonials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/lamber-s-auto-gladd/",
+  "built_at": "2026-08-17T13:17:33.038553+00:00"
+}

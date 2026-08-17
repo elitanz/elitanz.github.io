@@ -1,0 +1,24 @@
+{
+  "name": "Kiss's Auto Body & Frame Shop",
+  "slug": "kiss-s-auto-body-frame-shop",
+  "trade_key": "auto",
+  "city": "Newport",
+  "phone": "(612) 590-5477",
+  "source_site": "https://kissautobody.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "phone",
+    "services",
+    "since",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "headline",
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/kiss-s-auto-body-frame-shop/",
+  "built_at": "2026-08-17T13:17:34.412270+00:00"
+}

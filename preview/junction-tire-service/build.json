@@ -1,0 +1,22 @@
+{
+  "name": "Junction Tire Service",
+  "slug": "junction-tire-service",
+  "trade_key": "auto",
+  "city": "Cloquet",
+  "phone": "(218) 879-3366",
+  "source_site": "https://www.junctiontireinc.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "headline",
+    "phone",
+    "services",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [],
+  "url": "https://elitanz.github.io/preview/junction-tire-service/",
+  "built_at": "2026-08-17T13:17:31.997799+00:00"
+}

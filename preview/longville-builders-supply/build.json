@@ -1,0 +1,25 @@
+{
+  "name": "Longville Builders Supply",
+  "slug": "longville-builders-supply",
+  "trade_key": "general",
+  "city": "Longville",
+  "phone": "(218) 363-2716",
+  "source_site": "https://www.acehardware.com/store-details/06959",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "headline",
+    "hours",
+    "phone",
+    "services",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "headline"
+  ],
+  "url": "https://elitanz.github.io/preview/longville-builders-supply/",
+  "built_at": "2026-08-17T13:17:32.589797+00:00"
+}

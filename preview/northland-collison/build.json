@@ -1,0 +1,21 @@
+{
+  "name": "Northland Collison",
+  "slug": "northland-collison",
+  "trade_key": "auto",
+  "city": "Rosemount",
+  "phone": "(952) 891-5544",
+  "source_site": "https://northlandcollision.com",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "headline",
+    "phone",
+    "services",
+    "title"
+  ],
+  "placeholder_fields": [],
+  "url": "https://elitanz.github.io/preview/northland-collison/",
+  "built_at": "2026-08-17T13:17:33.493721+00:00"
+}

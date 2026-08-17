@@ -1,0 +1,23 @@
+{
+  "name": "Latuff Brothers Auto Body",
+  "slug": "latuff-brothers-auto-body",
+  "trade_key": "auto",
+  "city": "St Paul",
+  "phone": "(651) 224-2828",
+  "source_site": "https://www.latuffbrothers.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "address",
+    "description",
+    "hours",
+    "phone",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "about",
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/latuff-brothers-auto-body/",
+  "built_at": "2026-08-17T13:17:43.521818+00:00"
+}

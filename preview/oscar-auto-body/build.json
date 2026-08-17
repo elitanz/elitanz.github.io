@@ -1,0 +1,22 @@
+{
+  "name": "Oscar Auto Body",
+  "slug": "oscar-auto-body",
+  "trade_key": "auto",
+  "city": "Minneapolis",
+  "phone": "(612) 871-7052",
+  "source_site": "https://www.oscarautobody.com",
+  "scraped_ok": true,
+  "real_fields": [
+    "description",
+    "phone",
+    "services",
+    "title"
+  ],
+  "placeholder_fields": [
+    "about",
+    "headline",
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/oscar-auto-body/",
+  "built_at": "2026-08-17T13:17:34.002880+00:00"
+}

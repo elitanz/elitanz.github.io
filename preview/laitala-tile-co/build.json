@@ -1,0 +1,27 @@
+{
+  "name": "Laitala Tile Co.",
+  "slug": "laitala-tile-co",
+  "trade_key": "flooring",
+  "city": "",
+  "phone": "(507) 282-7658",
+  "source_site": "https://www.laitalatile.com",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "headline",
+    "hours",
+    "phone",
+    "services",
+    "since",
+    "socials",
+    "testimonials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/laitala-tile-co/",
+  "built_at": "2026-08-17T13:17:43.383902+00:00"
+}

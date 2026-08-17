@@ -1,0 +1,22 @@
+{
+  "name": "Matt's Automotive Service Center",
+  "slug": "matt-s-automotive-service-center",
+  "trade_key": "auto",
+  "city": "Columbia Heights",
+  "phone": "(763) 571-5616",
+  "source_site": "https://mattsautoservicecenter.com/columbia-heights/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "headline",
+    "phone",
+    "services",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [],
+  "url": "https://elitanz.github.io/preview/matt-s-automotive-service-center/",
+  "built_at": "2026-08-17T13:17:31.819799+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "L&M Fleet Supply",
+  "slug": "l-m-fleet-supply",
+  "trade_key": "general",
+  "city": "Cloquet",
+  "phone": "(866) 826-4548",
+  "source_site": "http://www.lmsupply.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "phone",
+    "services",
+    "socials",
+    "testimonials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "headline"
+  ],
+  "url": "https://elitanz.github.io/preview/l-m-fleet-supply/",
+  "built_at": "2026-08-17T13:17:40.623334+00:00"
+}

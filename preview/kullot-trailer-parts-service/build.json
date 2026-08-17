@@ -1,0 +1,23 @@
+{
+  "name": "Kullot Trailer Parts & Service",
+  "slug": "kullot-trailer-parts-service",
+  "trade_key": "auto",
+  "city": "Rochester",
+  "phone": "(507) 252-9373",
+  "source_site": "https://www.kullottrailer.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "description",
+    "headline",
+    "phone",
+    "services",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "about",
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/kullot-trailer-parts-service/",
+  "built_at": "2026-08-17T13:17:40.807940+00:00"
+}

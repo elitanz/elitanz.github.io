@@ -1,0 +1,23 @@
+{
+  "name": "Homestead Auto & Tire",
+  "slug": "homestead-auto-tire",
+  "trade_key": "auto",
+  "city": "Prior Lake",
+  "phone": "(651) 756-1900",
+  "source_site": "https://www.homesteadautotire.com",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "phone",
+    "services",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "headline"
+  ],
+  "url": "https://elitanz.github.io/preview/homestead-auto-tire/",
+  "built_at": "2026-08-17T13:17:41.193897+00:00"
+}

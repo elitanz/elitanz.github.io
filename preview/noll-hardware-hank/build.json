@@ -1,0 +1,22 @@
+{
+  "name": "Noll Hardware Hank",
+  "slug": "noll-hardware-hank",
+  "trade_key": "general",
+  "city": "Saint Paul",
+  "phone": "(651) 646-5408",
+  "source_site": "https://www.nollhardware.com",
+  "scraped_ok": true,
+  "real_fields": [
+    "address",
+    "description",
+    "headline",
+    "phone",
+    "title"
+  ],
+  "placeholder_fields": [
+    "about",
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/noll-hardware-hank/",
+  "built_at": "2026-08-17T13:17:31.875017+00:00"
+}

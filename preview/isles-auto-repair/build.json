@@ -1,0 +1,19 @@
+{
+  "name": "Isles Auto Repair",
+  "slug": "isles-auto-repair",
+  "trade_key": "auto",
+  "city": "",
+  "phone": "(612) 374-2978",
+  "source_site": "https://islesauto.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "description",
+    "headline",
+    "services",
+    "title"
+  ],
+  "placeholder_fields": [],
+  "url": "https://elitanz.github.io/preview/isles-auto-repair/",
+  "built_at": "2026-08-17T13:17:31.647586+00:00"
+}
