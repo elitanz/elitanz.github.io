@@ -1,0 +1,22 @@
+{
+  "name": "The Mustard Seed",
+  "slug": "the-mustard-seed",
+  "trade_key": "general",
+  "city": "Chaska",
+  "phone": "(952) 445-6555",
+  "source_site": "https://www.themustardseedinc.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "phone",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/the-mustard-seed/",
+  "built_at": "2026-08-19T13:34:45.460887+00:00"
+}

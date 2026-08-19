@@ -1,0 +1,22 @@
+{
+  "name": "Runnings Farm & Fleet",
+  "slug": "runnings-farm-fleet",
+  "trade_key": "general",
+  "city": "Willmar",
+  "phone": "(276) 554-2505",
+  "source_site": "https://www.runnings.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "phone",
+    "services",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "about",
+    "headline"
+  ],
+  "url": "https://elitanz.github.io/preview/runnings-farm-fleet/",
+  "built_at": "2026-08-19T13:34:44.750377+00:00"
+}

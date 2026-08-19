@@ -1,0 +1,24 @@
+{
+  "name": "The Muffler Center",
+  "slug": "the-muffler-center",
+  "trade_key": "auto",
+  "city": "Rochester",
+  "phone": "(507) 289-5905",
+  "source_site": "https://www.mufflercenterrochester.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "headline",
+    "phone",
+    "services",
+    "since",
+    "title"
+  ],
+  "placeholder_fields": [
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/the-muffler-center/",
+  "built_at": "2026-08-19T13:34:51.935409+00:00"
+}

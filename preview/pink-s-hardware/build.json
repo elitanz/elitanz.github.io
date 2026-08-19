@@ -1,0 +1,24 @@
+{
+  "name": "Pink's Hardware",
+  "slug": "pink-s-hardware",
+  "trade_key": "general",
+  "city": "Lester Prairie",
+  "phone": "(320) 395-2211",
+  "source_site": "https://pinkshardware.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "headline",
+    "phone",
+    "services",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/pink-s-hardware/",
+  "built_at": "2026-08-19T13:34:50.494932+00:00"
+}

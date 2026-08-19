@@ -1,0 +1,23 @@
+{
+  "name": "PTL tire and auto",
+  "slug": "ptl-tire-and-auto",
+  "trade_key": "auto",
+  "city": "Ham Lake",
+  "phone": "(763) 434-7766",
+  "source_site": "https://ptltireandauto.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "headline",
+    "phone",
+    "services",
+    "since",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [],
+  "url": "https://elitanz.github.io/preview/ptl-tire-and-auto/",
+  "built_at": "2026-08-19T13:21:24.616351+00:00"
+}

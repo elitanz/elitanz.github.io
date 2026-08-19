@@ -1,0 +1,23 @@
+{
+  "name": "Sparkle Plenty Cleaners",
+  "slug": "sparkle-plenty-cleaners",
+  "trade_key": "cleaning",
+  "city": "Woodbury",
+  "phone": "(612) 669-1606",
+  "source_site": "https://www.sparklemn.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "headline",
+    "phone",
+    "services",
+    "since",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [],
+  "url": "https://elitanz.github.io/preview/sparkle-plenty-cleaners/",
+  "built_at": "2026-08-19T13:34:51.307674+00:00"
+}

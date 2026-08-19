@@ -1,0 +1,24 @@
+{
+  "name": "Rockler Woodworking and Hardware",
+  "slug": "rockler-woodworking-and-hardware",
+  "trade_key": "general",
+  "city": "Maplewood",
+  "phone": "(651) 773-5285",
+  "source_site": "https://www.rockler.com/retail/stores/mn-maplewood-store?utm_source=local&utm_medium=organic&utm_campaign=maplewood",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "headline",
+    "hours",
+    "phone",
+    "services",
+    "since",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [],
+  "url": "https://elitanz.github.io/preview/rockler-woodworking-and-hardware/",
+  "built_at": "2026-08-19T13:21:24.732478+00:00"
+}

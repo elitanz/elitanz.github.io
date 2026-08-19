@@ -1,0 +1,24 @@
+{
+  "name": "Pahl's Market",
+  "slug": "pahl-s-market",
+  "trade_key": "general",
+  "city": "Apple Valley",
+  "phone": "(952) 431-4345",
+  "source_site": "https://www.pahls.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "headline",
+    "hours",
+    "phone",
+    "services",
+    "socials",
+    "testimonials",
+    "title"
+  ],
+  "placeholder_fields": [],
+  "url": "https://elitanz.github.io/preview/pahl-s-market/",
+  "built_at": "2026-08-19T13:34:51.017578+00:00"
+}

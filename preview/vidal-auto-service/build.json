@@ -1,0 +1,21 @@
+{
+  "name": "Vidal Auto Service",
+  "slug": "vidal-auto-service",
+  "trade_key": "auto",
+  "city": "Columbia Heights",
+  "phone": "(763) 331-0753",
+  "source_site": "https://vidalautoservice.com/columbia/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "description",
+    "phone",
+    "services",
+    "socials",
+    "testimonials",
+    "title"
+  ],
+  "placeholder_fields": [],
+  "url": "https://elitanz.github.io/preview/vidal-auto-service/",
+  "built_at": "2026-08-19T13:21:21.924714+00:00"
+}

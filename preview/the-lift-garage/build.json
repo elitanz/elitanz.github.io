@@ -1,0 +1,23 @@
+{
+  "name": "The Lift Garage",
+  "slug": "the-lift-garage",
+  "trade_key": "auto",
+  "city": "Minneapolis",
+  "phone": "(612) 866-5840",
+  "source_site": "https://www.theliftgarage.org/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "headline",
+    "hours",
+    "phone",
+    "services",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [],
+  "url": "https://elitanz.github.io/preview/the-lift-garage/",
+  "built_at": "2026-08-19T13:34:50.858404+00:00"
+}

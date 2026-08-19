@@ -1,0 +1,21 @@
+{
+  "name": "The Lucky Brake",
+  "slug": "the-lucky-brake",
+  "trade_key": "auto",
+  "city": "",
+  "phone": "(320) 864-5909",
+  "source_site": "https://www.facebook.com/theluckybrake/",
+  "scraped_ok": true,
+  "real_fields": [
+    "description",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "about",
+    "headline",
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/the-lucky-brake/",
+  "built_at": "2026-08-19T13:21:11.325640+00:00"
+}

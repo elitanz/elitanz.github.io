@@ -1,0 +1,23 @@
+{
+  "name": "Tangletown Gardens",
+  "slug": "tangletown-gardens",
+  "trade_key": "general",
+  "city": "Minneapolis",
+  "phone": "(612) 822-4769",
+  "source_site": "https://www.tangletowngardens.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "phone",
+    "services",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "headline"
+  ],
+  "url": "https://elitanz.github.io/preview/tangletown-gardens/",
+  "built_at": "2026-08-19T13:21:24.126666+00:00"
+}

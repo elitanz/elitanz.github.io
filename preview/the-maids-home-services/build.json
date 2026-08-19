@@ -1,0 +1,24 @@
+{
+  "name": "The Maids Home Services",
+  "slug": "the-maids-home-services",
+  "trade_key": "cleaning",
+  "city": "Saint Louis Park",
+  "phone": "(952) 929-6243",
+  "source_site": "https://www.themaidsminneapolis.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "headline",
+    "phone",
+    "services",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/the-maids-home-services/",
+  "built_at": "2026-08-19T13:34:51.524458+00:00"
+}

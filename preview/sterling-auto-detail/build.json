@@ -1,0 +1,25 @@
+{
+  "name": "Sterling Auto Detail",
+  "slug": "sterling-auto-detail",
+  "trade_key": "auto",
+  "city": "Oak Grove",
+  "phone": "(763) 784-2688",
+  "source_site": "https://www.sterlingautodetail.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "headline",
+    "phone",
+    "since",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "headline",
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/sterling-auto-detail/",
+  "built_at": "2026-08-19T13:34:45.138561+00:00"
+}

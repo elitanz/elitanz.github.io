@@ -1,0 +1,20 @@
+{
+  "name": "Ultimate Undercoating",
+  "slug": "ultimate-undercoating",
+  "trade_key": "auto",
+  "city": "Monticello",
+  "phone": "(612) 433-1295",
+  "source_site": "https://www.ultimateundercoating.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "description",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "about",
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/ultimate-undercoating/",
+  "built_at": "2026-08-19T13:21:22.177535+00:00"
+}
