@@ -1,0 +1,19 @@
+{
+  "name": "1 Brett Petersen @225 barbers",
+  "slug": "1-brett-petersen-225-barbers",
+  "trade_key": "barber",
+  "city": "Minneapolis",
+  "phone": "(612) 281-9084",
+  "source_site": "https://brett-petersen.square.site/",
+  "scraped_ok": true,
+  "real_fields": [
+    "title"
+  ],
+  "placeholder_fields": [
+    "about",
+    "headline",
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/1-brett-petersen-225-barbers/",
+  "built_at": "2026-08-21T13:25:25.729506+00:00"
+}

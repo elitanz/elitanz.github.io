@@ -1,0 +1,24 @@
+{
+  "name": "Blackstone Manor Clock Repair",
+  "slug": "blackstone-manor-clock-repair",
+  "trade_key": "general",
+  "city": "Hopkins",
+  "phone": "(952) 920-1300",
+  "source_site": "https://www.blackstonemanorclockrepair.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "description",
+    "headline",
+    "phone",
+    "services",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "headline",
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/blackstone-manor-clock-repair/",
+  "built_at": "2026-08-21T13:26:50.447642+00:00"
+}

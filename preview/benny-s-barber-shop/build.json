@@ -1,0 +1,17 @@
+{
+  "name": "Benny\u2019s Barber Shop",
+  "slug": "benny-s-barber-shop",
+  "trade_key": "barber",
+  "city": "White Bear Lake",
+  "phone": "(651) 426-1082",
+  "source_site": "https://www.bennyshaircut.com",
+  "scraped_ok": false,
+  "real_fields": [],
+  "placeholder_fields": [
+    "about",
+    "headline",
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/benny-s-barber-shop/",
+  "built_at": "2026-08-21T13:25:02.167775+00:00"
+}

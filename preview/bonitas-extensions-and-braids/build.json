@@ -1,0 +1,24 @@
+{
+  "name": "Bonitas Extensions and Braids",
+  "slug": "bonitas-extensions-and-braids",
+  "trade_key": "barber",
+  "city": "Minneapolis",
+  "phone": "(612) 423-9480",
+  "source_site": "https://www.bonitasextensions.com",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "hours",
+    "phone",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "about",
+    "headline",
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/bonitas-extensions-and-braids/",
+  "built_at": "2026-08-21T13:26:50.139310+00:00"
+}

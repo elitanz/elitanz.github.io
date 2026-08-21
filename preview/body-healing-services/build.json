@@ -1,0 +1,22 @@
+{
+  "name": "Body Healing Services",
+  "slug": "body-healing-services",
+  "trade_key": "general",
+  "city": "Minneapolis",
+  "phone": "(612) 986-1207",
+  "source_site": "https://www.bodyhealingservices.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "address",
+    "headline",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "about",
+    "headline",
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/body-healing-services/",
+  "built_at": "2026-08-21T13:26:22.536955+00:00"
+}

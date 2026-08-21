@@ -1,0 +1,24 @@
+{
+  "name": "Zenith Auto Glass",
+  "slug": "zenith-auto-glass",
+  "trade_key": "auto",
+  "city": "Duluth",
+  "phone": "(218) 275-5555",
+  "source_site": "https://www.zenithautoglass.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "headline",
+    "hours",
+    "phone",
+    "services",
+    "title"
+  ],
+  "placeholder_fields": [
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/zenith-auto-glass/",
+  "built_at": "2026-08-21T13:25:01.303928+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Brow Chic",
+  "slug": "brow-chic",
+  "trade_key": "salon",
+  "city": "",
+  "phone": "(651) 340-0292",
+  "source_site": "https://www.browchic.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "address",
+    "hours",
+    "phone",
+    "services",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "about",
+    "headline",
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/brow-chic/",
+  "built_at": "2026-08-21T13:27:16.745961+00:00"
+}

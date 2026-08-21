@@ -1,0 +1,19 @@
+{
+  "name": "56 Brewing",
+  "slug": "56-brewing",
+  "trade_key": "general",
+  "city": "Minneapolis",
+  "phone": "(612) 404-0056",
+  "source_site": "https://56brewing.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "headline",
+    "hours",
+    "services"
+  ],
+  "placeholder_fields": [],
+  "url": "https://elitanz.github.io/preview/56-brewing/",
+  "built_at": "2026-08-21T13:25:03.266823+00:00"
+}

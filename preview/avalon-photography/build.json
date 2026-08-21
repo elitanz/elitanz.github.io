@@ -1,0 +1,22 @@
+{
+  "name": "Avalon Photography",
+  "slug": "avalon-photography",
+  "trade_key": "general",
+  "city": "",
+  "phone": "(952) 922-6300",
+  "source_site": "https://avalonphoto.net/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "description",
+    "phone",
+    "services",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "headline"
+  ],
+  "url": "https://elitanz.github.io/preview/avalon-photography/",
+  "built_at": "2026-08-21T13:27:43.969030+00:00"
+}

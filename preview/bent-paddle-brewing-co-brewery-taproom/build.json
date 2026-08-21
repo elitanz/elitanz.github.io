@@ -1,0 +1,21 @@
+{
+  "name": "Bent Paddle Brewing Co. - Brewery + Taproom",
+  "slug": "bent-paddle-brewing-co-brewery-taproom",
+  "trade_key": "general",
+  "city": "Duluth",
+  "phone": "(218) 279-2722",
+  "source_site": "http://www.bentpaddlebrewing.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "address",
+    "description",
+    "services",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "about"
+  ],
+  "url": "https://elitanz.github.io/preview/bent-paddle-brewing-co-brewery-taproom/",
+  "built_at": "2026-08-21T13:27:45.625606+00:00"
+}

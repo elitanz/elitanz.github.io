@@ -1,0 +1,22 @@
+{
+  "name": "Bang Brewing Company",
+  "slug": "bang-brewing-company",
+  "trade_key": "general",
+  "city": "Saint Paul",
+  "phone": "(651) 243-2264",
+  "source_site": "https://www.bangbrewing.com",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "headline",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/bang-brewing-company/",
+  "built_at": "2026-08-21T13:27:44.271852+00:00"
+}

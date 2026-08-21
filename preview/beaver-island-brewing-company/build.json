@@ -1,0 +1,23 @@
+{
+  "name": "Beaver Island Brewing Company",
+  "slug": "beaver-island-brewing-company",
+  "trade_key": "general",
+  "city": "St. Cloud",
+  "phone": "(320) 253-5907",
+  "source_site": "https://www.beaverislandbrew.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "headline",
+    "phone",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/beaver-island-brewing-company/",
+  "built_at": "2026-08-21T13:27:45.124352+00:00"
+}

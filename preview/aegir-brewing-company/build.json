@@ -1,0 +1,23 @@
+{
+  "name": "Aegir Brewing Company",
+  "slug": "aegir-brewing-company",
+  "trade_key": "general",
+  "city": "Elk River",
+  "phone": "(763) 333-4271",
+  "source_site": "http://www.aegirbrewco.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "headline",
+    "hours",
+    "socials"
+  ],
+  "placeholder_fields": [
+    "about",
+    "headline",
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/aegir-brewing-company/",
+  "built_at": "2026-08-21T13:25:02.924499+00:00"
+}

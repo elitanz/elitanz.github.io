@@ -1,0 +1,25 @@
+{
+  "name": "Big Axe Brewing",
+  "slug": "big-axe-brewing",
+  "trade_key": "general",
+  "city": "Nisswa",
+  "phone": "(218) 961-2337",
+  "source_site": "https://www.bigaxebrewing.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "hours",
+    "phone",
+    "services",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "headline",
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/big-axe-brewing/",
+  "built_at": "2026-08-21T13:26:50.694501+00:00"
+}

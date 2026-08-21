@@ -1,0 +1,19 @@
+{
+  "name": "A & C Men's Grooming",
+  "slug": "a-c-men-s-grooming",
+  "trade_key": "barber",
+  "city": "Rochester",
+  "phone": "(507) 398-3219",
+  "source_site": "https://acmg.mysalononline.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "headline"
+  ],
+  "placeholder_fields": [
+    "about",
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/a-c-men-s-grooming/",
+  "built_at": "2026-08-21T13:25:02.125594+00:00"
+}

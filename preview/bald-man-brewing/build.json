@@ -1,0 +1,23 @@
+{
+  "name": "Bald Man Brewing",
+  "slug": "bald-man-brewing",
+  "trade_key": "general",
+  "city": "Eagan",
+  "phone": "(651) 600-3164",
+  "source_site": "https://www.baldmanbrewing.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "headline",
+    "phone",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "headline",
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/bald-man-brewing/",
+  "built_at": "2026-08-21T13:26:46.120843+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Zimmerman Home & Garden Center",
+  "slug": "zimmerman-home-garden-center",
+  "trade_key": "general",
+  "city": "Zimmerman",
+  "phone": "(763) 856-4440",
+  "source_site": "http://www.zimmermanhomeandgardencenter.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "headline",
+    "hours",
+    "phone",
+    "services",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [],
+  "url": "https://elitanz.github.io/preview/zimmerman-home-garden-center/",
+  "built_at": "2026-08-21T13:24:59.571873+00:00"
+}

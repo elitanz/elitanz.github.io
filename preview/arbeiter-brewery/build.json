@@ -1,0 +1,23 @@
+{
+  "name": "Arbeiter Brewery",
+  "slug": "arbeiter-brewery",
+  "trade_key": "general",
+  "city": "Minneapolis",
+  "phone": "(612) 438-2437",
+  "source_site": "https://arbeiterbrewing.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "headline",
+    "hours",
+    "services",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/arbeiter-brewery/",
+  "built_at": "2026-08-21T13:27:43.745943+00:00"
+}

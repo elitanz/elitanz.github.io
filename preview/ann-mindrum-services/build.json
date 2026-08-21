@@ -1,0 +1,23 @@
+{
+  "name": "Ann Mindrum Services",
+  "slug": "ann-mindrum-services",
+  "trade_key": "salon",
+  "city": "Aitkin",
+  "phone": "(218) 398-9950",
+  "source_site": "https://square.site/book/WKKA4ZCXR1SNJ/ann-mindrum-services-llc",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "hours",
+    "phone",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/ann-mindrum-services/",
+  "built_at": "2026-08-21T13:27:17.176121+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Brother Justus Whiskey Company",
+  "slug": "brother-justus-whiskey-company",
+  "trade_key": "general",
+  "city": "",
+  "phone": "(612) 886-1658",
+  "source_site": "https://brotherjustus.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "headline",
+    "services",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/brother-justus-whiskey-company/",
+  "built_at": "2026-08-21T13:26:22.841874+00:00"
+}

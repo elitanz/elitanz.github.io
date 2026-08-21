@@ -1,0 +1,25 @@
+{
+  "name": "Wright County Collision",
+  "slug": "wright-county-collision",
+  "trade_key": "auto",
+  "city": "Buffalo",
+  "phone": "(763) 682-3828",
+  "source_site": "https://www.wrightcountycollision.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "description",
+    "headline",
+    "phone",
+    "services",
+    "socials",
+    "testimonials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "headline",
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/wright-county-collision/",
+  "built_at": "2026-08-21T13:25:01.085336+00:00"
+}

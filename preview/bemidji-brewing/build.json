@@ -1,0 +1,22 @@
+{
+  "name": "Bemidji Brewing",
+  "slug": "bemidji-brewing",
+  "trade_key": "general",
+  "city": "Bemidji",
+  "phone": "(218) 444-7011",
+  "source_site": "https://bemidjibeer.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "address",
+    "description",
+    "headline",
+    "phone",
+    "title"
+  ],
+  "placeholder_fields": [
+    "about",
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/bemidji-brewing/",
+  "built_at": "2026-08-21T13:25:26.234098+00:00"
+}

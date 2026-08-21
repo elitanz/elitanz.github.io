@@ -1,0 +1,23 @@
+{
+  "name": "BlackStack Brewing",
+  "slug": "blackstack-brewing",
+  "trade_key": "general",
+  "city": "Saint Paul",
+  "phone": "(651) 808-0747",
+  "source_site": "https://www.blackstackbrewing.com/",
+  "scraped_ok": true,
+  "real_fields": [
+    "about",
+    "address",
+    "description",
+    "headline",
+    "phone",
+    "socials",
+    "title"
+  ],
+  "placeholder_fields": [
+    "services"
+  ],
+  "url": "https://elitanz.github.io/preview/blackstack-brewing/",
+  "built_at": "2026-08-21T13:27:45.964528+00:00"
+}
