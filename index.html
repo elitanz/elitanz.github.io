@@ -124,6 +124,28 @@ section{padding:110px 0;scroll-margin-top:60px}
   opacity:0;transform:translate(-6px,6px);transition:opacity .3s,transform .3s;color:var(--acc)}
 .card:hover .arw{opacity:1;transform:none}
 
+/* ---------- showcase (concept builds) ---------- */
+#showcase{padding-top:0}
+.show{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+@media(max-width:980px){.show{grid-template-columns:1fr 1fr}}
+@media(max-width:640px){.show{grid-template-columns:1fr}}
+.scard{display:flex;flex-direction:column;text-decoration:none;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--panel);transition:border-color .3s,transform .4s cubic-bezier(.22,1,.36,1)}
+.scard:hover{border-color:var(--line2);transform:translateY(-4px)}
+.scard .ph{position:relative;aspect-ratio:1200/833;overflow:hidden;background:#000}
+.scard .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:opacity .6s ease,transform .8s cubic-bezier(.22,1,.36,1)}
+.scard .ph img.b{opacity:0}
+.scard:hover .ph img.b,.scard:focus-visible .ph img.b{opacity:1}
+.scard:hover .ph img{transform:scale(1.03)}
+.scard .ph .hint{position:absolute;left:12px;bottom:12px;font-family:var(--mono);font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;color:#f2f2ef;background:rgba(9,9,11,.7);border:1px solid var(--line2);border-radius:100px;padding:6px 10px;transition:opacity .4s}
+.scard:hover .ph .hint{opacity:0}
+@media(hover:none){.scard .ph .hint{display:none}}
+.scard .meta{padding:20px 22px 24px;display:flex;flex-direction:column;gap:8px;flex:1}
+.scard .tag{font-family:var(--mono);font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--mut)}
+.scard b{font-family:var(--disp);font-size:24px;letter-spacing:-.02em;display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.scard b small{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--mut);font-weight:400}
+.scard p{color:#b9b9c0;font-size:14px;line-height:1.6}
+.scard .go{margin-top:auto;padding-top:8px;font-family:var(--mono);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--acc)}
+
 /* ---------- stats ---------- */
 #numbers{padding:0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .stats{display:grid;grid-template-columns:repeat(3,1fr)}
@@ -220,6 +242,7 @@ footer a:hover{color:var(--acc)}
   <a class="nv-mark" href="#">ELI TANZ<i>.</i></a>
   <div class="nv-links">
     <a href="#work">Work</a>
+    <a href="#showcase">Showcase</a>
     <a href="#process">Process</a>
     <a href="#systems">Systems</a>
     <a href="#start" class="nv-cta">Get your free site</a>
@@ -286,6 +309,28 @@ footer a:hover{color:var(--acc)}
       <a class="card" href="https://elitanz.github.io/windmill-cafe/" target="_blank" rel="noopener"><div class="ph"><img loading="lazy" src="assets/shots/windmill-cafe.jpg" alt="Windmill Cafe website" width="1200" height="833"></div><span class="arw">↗</span><div class="meta"><b>Windmill Cafe<small>Diner — Savage, MN</small></b><span class="ix">10</span></div></a>
       <a class="card" href="https://elitanz.github.io/amboy-cottage-cafe/" target="_blank" rel="noopener"><div class="ph"><img loading="lazy" src="assets/shots/amboy-cottage-cafe.jpg" alt="Amboy Cottage Café website" width="1200" height="833"></div><span class="arw">↗</span><div class="meta"><b>Amboy Cottage Café<small>Café — Amboy, MN</small></b><span class="ix">11</span></div></a>
       <a class="card" href="https://elitanz.github.io/staceys-slappin-soulfood/" target="_blank" rel="noopener"><div class="ph"><img loading="lazy" src="assets/shots/staceys-slappin-soulfood.jpg" alt="Stacey's Slappin' Soulfood website" width="1200" height="833"></div><span class="arw">↗</span><div class="meta"><b>Stacey's Slappin' Soulfood<small>Restaurant — Spencer, OK</small></b><span class="ix">12</span></div></a>
+    </div>
+  </div>
+</section>
+
+<!-- SHOWCASE -->
+<section id="showcase">
+  <div class="wrap">
+    <div class="sec-bar rv"><h2>Showcase <em>builds</em></h2><span class="mono">/ 01B — THE CEILING</span></div>
+    <p class="sec-lead rv">Three concept sites for invented brands, built to see how far a website can go. The businesses are fictional. The data behind them is real: live weather, astronomy checked against NASA, and a watch escapement worked out from its geometry.</p>
+    <div class="show rv">
+      <a class="scard" href="https://elitanz.github.io/saros/" target="_blank" rel="noopener">
+        <div class="ph"><img loading="lazy" src="assets/shots/saros.jpg" alt="Saros website: the headline set inside the black disc of the Moon during a total eclipse" width="1200" height="833"><img class="b" loading="lazy" src="assets/shots/saros-b.jpg" alt="" width="1200" height="833"><span class="hint">Hover · signature scene</span></div>
+        <div class="meta"><span class="tag">Concept build · fictional brand</span><b>Saros <small>Eclipse travel</small></b><p>The headline sits inside the Moon. Scroll plays a total eclipse over Luxor, timed to the second from NASA's own data, with a live globe of every eclipse to 2035.</p><span class="go">Open the site ↗</span></div>
+      </a>
+      <a class="scard" href="https://elitanz.github.io/mizukagami/" target="_blank" rel="noopener">
+        <div class="ph"><img loading="lazy" src="assets/shots/mizukagami.jpg" alt="Mizukagami website: Mount Fuji reflected in a still Lake Kawaguchi" width="1200" height="833"><img class="b" loading="lazy" src="assets/shots/mizukagami-b.jpg" alt="" width="1200" height="833"><span class="hint">Hover · signature scene</span></div>
+        <div class="meta"><span class="tag">Concept build · fictional brand</span><b>Mizukagami <small>Ryokan, Mt Fuji</small></b><p>Tap the lake and it ripples; the waves follow the live wind. Also a dawn forecast, 35 years of Fuji-visibility records, and a real line-of-sight map.</p><span class="go">Open the site ↗</span></div>
+      </a>
+      <a class="scard" href="https://elitanz.github.io/tolv/" target="_blank" rel="noopener">
+        <div class="ph"><img loading="lazy" src="assets/shots/tolv.jpg" alt="Tolv website: macro photograph inside a mechanical watch under the headline Twelve watches a year" width="1200" height="833"><img class="b" loading="lazy" src="assets/shots/tolv-b.jpg" alt="" width="1200" height="833"><span class="hint">Hover · signature scene</span></div>
+        <div class="meta"><span class="tag">Concept build · fictional brand</span><b>Tolv <small>Watchmaker, MPLS</small></b><p>Scroll lifts a watch movement apart, then slows one tick down until you can follow a single tooth. Tonight's real Moon is on the dial.</p><span class="go">Open the site ↗</span></div>
+      </a>
     </div>
   </div>
 </section>
